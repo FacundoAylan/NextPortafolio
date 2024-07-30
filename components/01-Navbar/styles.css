@@ -1,0 +1,21 @@
+.title{
+  background: rgb(37, 36, 36);
+}
+
+.progressbar{
+  width: 0%;
+  height: 100%;
+  box-shadow: 0 0 10px #b178e0;
+  background: #a87dcc;
+  animation: resize auto linear forwards;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes resize {
+  from{ width: 0%;}
+  to { width: 100% }
+}
+
+.fondo{
+  background-color: #6c2f9e; 
+  box-shadow: 2px 2px 2px #a87dcc;}

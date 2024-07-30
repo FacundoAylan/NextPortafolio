@@ -1,0 +1,29 @@
+#section1, #section3 {
+  transform: scale(0);
+  animation: none;
+  opacity: 0;
+}
+
+#section3 img {
+  filter: drop-shadow(10px 2px 20px #a87dcc);
+  overflow: visible;
+}
+
+@keyframes animation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animation2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%)
+  }
+}

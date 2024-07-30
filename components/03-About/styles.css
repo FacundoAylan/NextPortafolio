@@ -1,0 +1,31 @@
+@keyframes traslateTitle {
+  from{
+    transform: translateY(-100%);
+  }to{
+    transform: translateY(0%);
+  }
+}
+
+@keyframes traslateText {
+  from{
+    transform: translateX(-100%);
+  }to{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes traslateDatos1 {
+  from{
+    transform: translateX(-100%);
+  }to{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes traslateDatos2 {
+  from{
+    transform: translateX(100%);
+  }to{
+    transform: translateX(0%);
+  }
+}
