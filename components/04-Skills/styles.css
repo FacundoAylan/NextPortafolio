@@ -1,0 +1,15 @@
+.card {
+  animation: none;
+  backdrop-filter: blur(10px);
+}
+@keyframes traslateCard {
+  from {
+    transform: scale(0);
+  }to{
+    transform: scale(1);
+  }
+}
+
+#titleSkills {
+  animation: none;
+}

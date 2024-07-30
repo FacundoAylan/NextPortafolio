@@ -13,7 +13,7 @@ export default function NavBar({ scrollSection }) {
       <li className="hidden md:flex gap-4 font-bold">
         <ul className="relative h-10 w-16 fondo rounded">
           <button
-            className="text-black h-full w-full bg-[#a87dcc] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-6px] hover:translate-y-[-4px]"
+            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-6px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("home")}
           >
             Inicio
@@ -21,7 +21,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-20 fondo rounded">
           <button
-            className="text-black h-full w-full bg-[#a87dcc] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
+            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("about")}
           >
             sobre mi
@@ -29,7 +29,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-16 fondo rounded">
           <button
-            className="text-black h-full w-full bg-[#a87dcc] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
+            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("skills")}
           >
             Skills
@@ -37,7 +37,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-24 fondo rounded">
           <button
-            className="text-black h-full w-full bg-[#a87dcc] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
+            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("projects")}
           >
             Proyectos
@@ -45,7 +45,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-28 fondo rounded ">
           <button
-            className="text-black h-full w-full bg-[#a87dcc] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-5px] hover:translate-y-[-4px]"
+            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-5px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("certificados")}
           >
             Certificados
@@ -101,7 +101,7 @@ export default function NavBar({ scrollSection }) {
           </li>
         </div>
       )}
-      <div className="w-full h-[4px] bg-red-200 absolute bottom-0 left-0">
+      <div className="w-full h-[3px] bg-red-200 absolute bottom-0 left-0">
         <div className="progressbar absolute z-10 rounded"/>
       </div>
 

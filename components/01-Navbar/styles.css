@@ -1,12 +1,13 @@
 .title{
-  background: rgb(37, 36, 36);
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .progressbar{
   width: 0%;
   height: 100%;
-  box-shadow: 0 0 10px #b178e0;
-  background: #a87dcc;
+  box-shadow: 0 0 10px #6304b1;
+  background: #8142b4;
   animation: resize auto linear forwards;
   animation-timeline: scroll(root block);
 }
