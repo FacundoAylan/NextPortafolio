@@ -6,7 +6,7 @@ export default function NavBar({ scrollSection }) {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="w-full h-full title flex justify-between  md:px-6 items-center">
+    <div className="w-full h-full title flex justify-between  px-2 lg:px-6 items-center">
       <h1 className=" font-title text-4xl font-black text-white">
         Facundo Aylan
       </h1>
@@ -56,43 +56,43 @@ export default function NavBar({ scrollSection }) {
         <img width={50} height={50} src={"/image/hamburguesa.png"} />
       </button>
       {openMenu && (
-        <div className="w-[96%] h-auto fixed z-10 bg-red-300 mt-96 overflow-hidden">
+        <div className="w-[96%] h-auto fixed z-10  mt-96 overflow-hidden">
           <li className="w-full h-full font-bold list-none">
-            <ul className="h-16 w-full bg-slate-900">
+            <ul className="h-16 w-full bg-[#a87dcc]">
               <button
-                className="h-full w-full bg-[#bedcfe] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
+                className="h-full w-full bg-[#a87dcc] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
                 onClick={() => scrollSection("home")}
               >
                 Inicio
               </button>
             </ul>
-            <ul className="h-16 w-full bg-slate-900">
+            <ul className="h-16 w-full bg-[#a87dcc]">
               <button
-                className="h-full w-full bg-[#bedcfe] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
+                className="h-full w-full bg-[#a87dcc] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
                 onClick={() => scrollSection("about")}
               >
                 sobre mi
               </button>
             </ul>
-            <ul className="h-16 w-full bg-slate-900">
+            <ul className="h-16 w-full bg-[#a87dcc]">
               <button
-                className="h-full w-full bg-[#bedcfe] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
+                className="h-full w-full bg-[#a87dcc] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
                 onClick={() => scrollSection("skills")}
               >
                 Skills
               </button>
             </ul>
-            <ul className="h-16 w-full bg-slate-900">
+            <ul className="h-16 w-full bg-[#a87dcc]">
               <button
-                className="h-full w-full bg-[#bedcfe] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
+                className="h-full w-full bg-[#a87dcc] border-2 bg-green-500 border-black  hover:translate-x-[-4px] hover:translate-y-[-4px]"
                 onClick={() => scrollSection("projects")}
               >
                 Proyectos
               </button>
             </ul>
-            <ul className="h-16 w-full bg-slate-900">
+            <ul className="h-16 w-full bg-[#a87dcc]">
               <button
-                className="h-full w-full bg-[#bedcfe] border-2 bg-green-500 border-black p-1 hover:translate-x-[-5px] hover:translate-y-[-4px]"
+                className="h-full w-full bg-[#a87dcc] border-2 bg-green-500 border-black p-1 hover:translate-x-[-5px] hover:translate-y-[-4px]"
                 onClick={() => scrollSection("certificados")}
               >
                 Certificados
@@ -101,7 +101,7 @@ export default function NavBar({ scrollSection }) {
           </li>
         </div>
       )}
-      <div className="w-full h-[3px] bg-red-200 absolute bottom-0 left-0">
+      <div className="w-full h-[4px] lg:h-[3px] bg-red-200 absolute bottom-0 left-0">
         <div className="progressbar absolute z-10 rounded"/>
       </div>
 

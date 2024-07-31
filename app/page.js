@@ -5,6 +5,7 @@ import Titles from "@/components/06-Title";
 import '@/components/06-Title/styles.css';
 import About from "@/components/03-About";
 import Skill from "@/components/04-Skills";
+import Proyect from "@/components/05-Projects";
 
 export default function Home() {
 
@@ -43,7 +44,9 @@ export default function Home() {
       <section 
         id="projects"
         className="w-full h-screen "
-      ></section>
+      >
+        <Proyect/>
+      </section>
       <section 
         id="certificados"
         className=" w-screen h-screen pt-8 flex items-center justify-center"

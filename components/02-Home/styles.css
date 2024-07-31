@@ -4,7 +4,7 @@
   opacity: 0;
 }
 
-#section3 img {
+#section1 img ,#section3 img {
   filter: drop-shadow(10px 2px 20px #a87dcc);
   overflow: visible;
 }
