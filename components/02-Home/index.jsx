@@ -31,7 +31,7 @@ export default function HomeCard(){
           Full Stack developer
         </h1>
         <h3 className="text-2xl font-bold mt-2 text-center text-white">Buenos Aires(CABA)</h3>
-        <div className="flex gap-8 mt-6  ml-28 md:ml-32 lg:ml-60  text-[#a87dcc]">
+        <div className="flex gap-8 mt-8  ml-28 md:ml-32 lg:ml-60  text-[#a87dcc]">
           <Link 
             href=''
             className='hover:scale-110'
