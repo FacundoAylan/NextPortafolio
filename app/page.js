@@ -19,19 +19,19 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full relative">
-      <header className="w-full h-22 md:h-16 fixed z-10">
+    <main className="w-screen h-auto relative">
+      <header className="w-screen h-22 md:h-16 fixed z-10">
         <NavBar scrollSection={scrollSection}/>
       </header>
       <section 
         id="home"
-        className="w-full h-screen pt-16"
+        className="w-screen h-screen pt-16"
       >
         <HomeCard/>
       </section>
       <section 
         id="about"
-        className="w-full h-screen pt-8 lg:pt-16"
+        className="w-screen h-screen pt-8 lg:pt-16"
       >
         <About/>
       </section>
@@ -49,13 +49,13 @@ export default function Home() {
       </section>
       <section 
         id="certificados"
-        className=" w-full h-screen pt-8 flex items-center justify-center"
+        className=" w-screen h-screen pt-8 flex items-center justify-center"
       >
         <div className='containerImage w-10/12 px-4 md:px-0 md:w-1/2 md:h-3/5'>
           <Titles />
         </div>
       </section>
-      <footer className="w-full fixed bottom-2">
+      <footer className="w-screen fixed bottom-2">
       </footer>
     </main>
   );
