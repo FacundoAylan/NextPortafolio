@@ -24,7 +24,7 @@ export default function HomeCard(){
           src={'image/profile.png'}
         />
       </div>
-      <div id='section2' className="md:w-1/2 md:h-full flex flex-col justify-center">
+      <div id='section2' className="md:w-1/2 md:h-full flex flex-col justify-center items-center">
         <h1 
           className="text-2xl md:text-3xl lg:text-5xl font-black tracking-wide uppercase text-center text-[#a87dcc]"
         >
