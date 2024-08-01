@@ -18,9 +18,9 @@ export default function About(){
   return(
     <div className="w-full h-full flex  flex-col overflow-hidden pb-1 px-4">
       <h1 id='title' className="w-screen text-center text-6xl text-[#a87dcc] font-black">Sobre mi</h1>
-      <p id='text' className="mt-12 text-white">¡Hola! Soy <span className="font-bold text-[#a87dcc]">Facundo</span>, estudiante de <span className="font-bold text-[#a87dcc]">Analista en Sistemas en la UBA y Full Stack Developer</span>. Me apasiona el diseño web y me encanta aprender nuevas tecnologías. Además, tengo un gran interés en la electrónica y la reparación de computadoras. Estoy emocionado por seguir creciendo profesionalmente y encontrar nuevas formas de fusionar mi pasión por el diseño y la tecnología. ¡Gracias por visitar mi portafolio! Siempre estoy abierto a nuevas oportunidades y colaboraciones, así que no dudes en ponerte en contacto conmigo.</p>
-      <div className="w-full flex justify-between mt-12">
-        <div id='datos1' className="w-full lg:w-1/2 text-white">
+      <p id='text' className="mt-4 lg:mt-8 text-white text-base md:text-xl font-bold md:tracking-wider">¡Hola! Soy <span className="font-bold text-[#a87dcc]">Facundo</span>, estudiante de <span className="font-bold text-[#a87dcc]">Analista en Sistemas en la UBA y Full Stack Developer</span>. Me apasiona el diseño web y me encanta aprender nuevas tecnologías. Además, tengo un gran interés en la electrónica y la reparación de computadoras. Estoy emocionado por seguir creciendo profesionalmente y encontrar nuevas formas de fusionar mi pasión por el diseño y la tecnología. ¡Gracias por visitar mi portafolio! Siempre estoy abierto a nuevas oportunidades y colaboraciones, así que no dudes en ponerte en contacto conmigo.</p>
+      <div className="w-full flex md:hidden lg:flex justify-between mt-12">
+        <div id='datos1' className="w-full lg:w-1/2 text-white text-lg tracking-wider">
           <h3 className="font-black text-[#a87dcc] text-3xl text-center lg:text-start">Datos personales</h3>
           <h4 className="mt-4 text-white"><span className="font-bold text-[#a87dcc]">Cumpleaños: </span>20/02/2000</h4>
           <h4><span className="font-bold text-[#a87dcc]">Telefono: </span>1136747801</h4>
@@ -31,27 +31,27 @@ export default function About(){
           <div className="flex w-full h-full gap-8 mt-4 ">
             <img 
               src='/image/portatil.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
             <img 
               src='/image/electronica.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
             <img 
               src='/image/gamer.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
             <img 
               src='/image/musical.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
             <img 
               src='/image/peliculas.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
             <img 
               src='/image/codigo.png'
-              className="w-20 h-20"
+              className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
             />
           </div>
         </div>

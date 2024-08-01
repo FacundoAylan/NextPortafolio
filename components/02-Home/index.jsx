@@ -24,14 +24,14 @@ export default function HomeCard(){
           src={'image/profile.png'}
         />
       </div>
-      <div id='section2' className="md:w-1/2 xl:mt-56">
+      <div id='section2' className="md:w-1/2 md:h-full flex flex-col justify-center">
         <h1 
-          className="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-black tracking-wide mt-8 md:mt-28 lg:mt-44 ml-6 uppercase text-center text-[#a87dcc]"
+          className="text-2xl md:text-3xl lg:text-5xl font-black tracking-wide uppercase text-center text-[#a87dcc]"
         >
           Full Stack developer
         </h1>
         <h3 className="text-2xl xl:text-4xl font-bold mt-2 text-center text-white">Buenos Aires(CABA)</h3>
-        <div className="flex gap-8 mt-6  ml-32 md:ml-32 lg:ml-60 xl:ml-80  text-[#a87dcc]">
+        <div className="w-full flex justify-center gap-8 mt-4 text-[#a87dcc]">
           <Link 
             href=''
             className='hover:scale-110'
@@ -56,7 +56,7 @@ export default function HomeCard(){
           </Link>
         </div>
       </div>
-      <div id='section3' className='w-1/2 hidden md:flex justify-end '>
+      <div id='section3' className='md:w-1/2 hidden md:flex justify-end '>
         <img
           src={'image/profile.png'}
         />

@@ -37,7 +37,7 @@ export default function Home() {
       </section>
       <section 
         id="skills"
-        className="w-screen h-screen pt-8 lg:pt-20"
+        className="w-screen min-h-screen pt-8 lg:pt-20"
       >
         <Skill/>
       </section>
