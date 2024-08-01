@@ -18,8 +18,8 @@ export default function HomeCard(){
 
 
   return(
-    <div id='section' className="w-full h-screen pb-16 flex flex-col justify-center md:justify-between md:flex-row overflow-hidden pb-1">
-      <div id='section1' className=' w-3/4 md:hidden mx-14'>
+    <div id='section' className="w-full h-screen pb-16 flex flex-col items-center md:justify-between md:flex-row overflow-hidden pb-1">
+      <div id='section1' className=' w-3/4 md:hidden'>
         <img
           src={'image/profile.png'}
         />
