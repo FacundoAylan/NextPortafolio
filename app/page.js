@@ -19,13 +19,13 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full h-auto relative">
+    <main className="w-full h-full relative">
       <header className="w-full h-22 md:h-16 fixed z-10">
         <NavBar scrollSection={scrollSection}/>
       </header>
       <section 
         id="home"
-        className="w-full h-screen pt-16"
+        className="w-full h-screen"
       >
         <HomeCard/>
       </section>
