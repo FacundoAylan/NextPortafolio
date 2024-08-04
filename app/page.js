@@ -43,7 +43,7 @@ export default function Home() {
       </section>
       <section 
         id="projects"
-        className="w-full h-screen "
+        className="w-full h-screen pt-8 lg:pt-20"
       >
         <Proyect/>
       </section>

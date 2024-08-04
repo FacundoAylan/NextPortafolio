@@ -7,6 +7,7 @@
 #section1 img ,#section3 img {
   filter: drop-shadow(10px 2px 20px #a87dcc);
   overflow: visible;
+  mask-image: linear-gradient(black 95%, transparent);
 }
 
 @keyframes animation {

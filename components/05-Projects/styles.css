@@ -1,0 +1,8 @@
+.containerCard{
+  box-shadow: 0px 0px 16px white;
+}
+.info {
+  background-image: url('/image/background.jpg');
+  background-size: cover; 
+  background-position: center; 
+}
