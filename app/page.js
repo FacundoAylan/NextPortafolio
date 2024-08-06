@@ -31,7 +31,7 @@ export default function Home() {
       </section>
       <section 
         id="about"
-        className="w-full h-screen pt-8 lg:pt-16"
+        className="w-full min-h-screen pt-8 lg:pt-16"
       >
         <About/>
       </section>
