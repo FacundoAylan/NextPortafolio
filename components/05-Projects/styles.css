@@ -6,3 +6,9 @@
   background-size: cover; 
   background-position: center; 
 }
+
+.modal {
+  background-image: url('/image/background.jpg');
+  background-size: cover; 
+  background-position: center; 
+}

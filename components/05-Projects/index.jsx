@@ -14,9 +14,13 @@ export default function Proyect(){
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
   };
+
+  const [modal, setModal] = useState(false);
+
+  const [infoModal, setInfo] = useState('')
   
   return(
-    <div className="w-full h-full">
+    <div className="w-full h-full relative">
       <h1 className="w-full h-1/5 text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
       <div className="w-full h-4/5 hidden md:flex gap-8 px-6 flex-wrap items-center justify-center">
         {slides.map((slide, index) => {
@@ -30,6 +34,9 @@ export default function Proyect(){
                 right={slide.rightSubtitle}
                 video={slide.video}
                 github={slide.github}
+                modal={modal}
+                setModal={setModal}
+                setInfo={setInfo}
               />
               );
         })}
@@ -63,6 +70,9 @@ export default function Proyect(){
               right={slide.rightSubtitle}
               video={slide.video}
               github={slide.github}
+              modal={modal}
+              setModal={setModal}
+              setInfo={setInfo}
             />
           ))}
         </div>
@@ -83,6 +93,23 @@ export default function Proyect(){
           </svg>
         </button>
       </div>
+      { modal && (
+        <div className="modal absolute z-8 w-full h-full top-0 px-6">
+          <button 
+            onClick={()=>setModal(!modal)}
+            className="text-white font-black"
+          >
+            X
+          </button>
+          <iframe
+              src={infoModal}
+              frameborder="0" 
+              allow="autoplay; 
+              fullscreen" allowfullscreen
+              style={{ width: '100%', height: '80%',margin:0 }}
+            />
+        </div>
+      )}
     </div>
   )
 }
