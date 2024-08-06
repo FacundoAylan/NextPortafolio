@@ -17,7 +17,7 @@ export default function About(){
 
   return(
     <div className="w-full h-full flex  flex-col overflow-hidden pb-1 px-4 justify-center">
-      <h1 id='title' className="w-screen text-center text-6xl text-[#a87dcc] font-black">Sobre mi</h1>
+      <h1 id='title' className="w-full text-center text-6xl text-[#a87dcc] font-black">Sobre mi</h1>
       <div className='w-full h-4/5 flex flex-col justify-center lg:gap-8'>
         <p id='text' className="h-1/5 mt-4 lg:mt-8 text-white text-base md:text-xl font-bold md:tracking-wider">¡Hola! Soy <span className="font-bold text-[#a87dcc]">Facundo</span>, estudiante de <span className="font-bold text-[#a87dcc]">Analista en Sistemas en la UBA y Full Stack Developer</span>. Me apasiona el diseño web y me encanta aprender nuevas tecnologías. Además, tengo un gran interés en la electrónica y la reparación de computadoras. Estoy emocionado por seguir creciendo profesionalmente y encontrar nuevas formas de fusionar mi pasión por el diseño y la tecnología. ¡Gracias por visitar mi portafolio! Siempre estoy abierto a nuevas oportunidades y colaboraciones, así que no dudes en ponerte en contacto conmigo.</p>
         <div className="w-full flex flex-col md:hidden lg:flex lg:flex-row lg:justify-between mt-6 lg:mt-12">
