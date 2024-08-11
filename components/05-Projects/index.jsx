@@ -2,17 +2,18 @@
 import { useEffect, useState } from "react";
 import CardProjects from "./cardProyects";
 import { slides } from "./data";
-import { ScriptProyect } from "./script";
+import { scriptAnimation } from "@/app/script";
 
 export default function Proyect(){
 
-  useEffect(()=>{
-    const animation = async()=>{
-      await ScriptProyect('titleProjects', 'traslateTitle 1s forwards');
-      await ScriptProyect('projects', 'traslateProjects 1s forwards');
-    }
-    animation()
-  },[]);
+  // useEffect(()=>{
+  //   const animation = async()=>{
+  //     await scriptAnimation('titleProjects', 'traslateTitle 1s forwards');
+  //     await scriptAnimation('projects', 'traslateProjects 1s forwards');
+  //     await scriptAnimation('projects2', 'traslateProjects 1s forwards');
+  //   }
+  //   animation()
+  // },[]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -51,7 +52,7 @@ export default function Proyect(){
         })}
       </div>
 
-      <div id='projects' className="w-full h-4/5 flex gap-2 items-center relative md:hidden mt-4">
+      <div id='projects2' className="w-full h-4/5 flex gap-2 items-center relative md:hidden mt-4">
         <button onClick={prevSlide} className="absolute z-10 text-white left-6 top-1/4">
           <svg
             xmlns="http://www.w3.org/2000/svg"

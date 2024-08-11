@@ -1,11 +1,10 @@
 'use client';
 import NavBar from "@/components/01-Navbar";
 import HomeCard from "@/components/02-Home";
-import Titles from "@/components/06-Title";
-import '@/components/06-Title/styles.css';
 import About from "@/components/03-About";
 import Skill from "@/components/04-Skills";
 import Proyect from "@/components/05-Projects";
+import Titles from "@/components/06-Title";
 
 export default function Home() {
 
@@ -25,19 +24,19 @@ export default function Home() {
       </header>
       <section 
         id="home"
-        className="w-full min-h-full lg:h-screen flex items-center lg:pt-16"
+        className="w-full min-h-full lg:h-screen flex items-center lg:pt-16 pb-2"
       >
         <HomeCard/>
       </section>
       <section 
         id="about"
-        className="w-full min-h-full lg:h-screen flex items-center pt-16"
+        className="w-full min-h-full lg:h-screen flex items-center pt-16 pb-2"
       >
         <About/>
       </section>
       <section 
         id="skills"
-        className="w-full min-h-full lg:h-screen flex items-center pt-16"
+        className="w-full min-h-full lg:h-screen flex items-center pt-16 pb-2"
       >
         <Skill/>
       </section>

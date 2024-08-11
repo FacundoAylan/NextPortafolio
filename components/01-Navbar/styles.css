@@ -1,6 +1,6 @@
 .title{
   background: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 .progressbar{
@@ -13,7 +13,7 @@
 }
 
 @keyframes resize {
-  from{ width: 0%;}
+  from { width: 0% }
   to { width: 100% }
 }
 

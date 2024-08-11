@@ -1,4 +1,4 @@
-export const parent = (sectionId, animation) => {
+export const scriptAnimation = (sectionId, animation) => {
 
   const image = document.getElementById(sectionId);
 

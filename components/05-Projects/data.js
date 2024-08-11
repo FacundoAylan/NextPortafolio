@@ -61,12 +61,12 @@ export const slides = [
   },
   {
     image: '/image/ProyectsImg/image5.png', 
-    title: 'Videogamer',
-    subtitle: 'FullStack',
-    content: `Aplición web, donde podras ver informacion de tus juegos`,
+    title: 'Portafolio',
+    subtitle: 'Font End',
+    content: `Portafolio personal`,
     rightSubtitle: [{name:'React js',icon:react},{name:'redux',icon:redux}, {name:'node js',icon:node},{name:'postgres', icon:postgres}],
-    github:'https://github.com/FacundoAylan/VideoGamerPi',
-    video:''
+    github:'https://github.com/FacundoAylan/Portafolio',
+    video:'https://player.vimeo.com/video/997507512?h=dbf30480f7'
   },
 
 ];

@@ -1,19 +1,19 @@
 'use client'
 import { useEffect } from 'react';
+import { scriptAnimation } from '@/app/script';
 import './styles.css';
-import { animationScript } from './script';
 
 export default function About(){
 
-  useEffect(()=>{
-    const animation = async()=>{
-      await animationScript('title','traslateTitle 1s linear')
-      await animationScript('text', 'traslateText 1s linear')
-      await animationScript('datos1', 'traslateDatos1 1s linear')
-      await animationScript('datos2', 'traslateDatos2 1s linear')
-    }
-    animation()
-  },[]);
+  // useEffect(()=>{
+  //   const animation = async()=>{
+  //     await scriptAnimation('title','traslateTitle 1s linear')
+  //     await scriptAnimation('text', 'traslateText 1s linear')
+  //     await scriptAnimation('datos1', 'traslateDatos1 1s linear')
+  //     await scriptAnimation('datos2', 'traslateDatos2 1s linear')
+  //   }
+  //   animation()
+  // },[]);
 
   return(
     <div className="w-full h-full flex  flex-col overflow-hidden pb-1 px-4 justify-center">

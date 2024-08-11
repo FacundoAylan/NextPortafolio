@@ -4,12 +4,9 @@
 }
 @keyframes traslateCard {
   from {
-    transform: scale(0);
+    transform: translateX(100%);
   }to{
-    transform: scale(1);
+    transform: translateX(0);
   }
 }
 
-#titleSkills {
-  animation: none;
-}

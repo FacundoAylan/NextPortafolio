@@ -1,8 +1,8 @@
 'use client'
 import { useEffect } from 'react';
 import Link from "next/link";
-import { parent } from './script';
 import './styles.css';
+import { scriptAnimation } from '@/app/script';
 
 export default function HomeCard(){
 
@@ -14,9 +14,8 @@ export default function HomeCard(){
   
   useEffect(() => {
     const animation = async()=>{
-      await parent('section1', 'animation 1s forwards');
-      await parent('section2', 'animation2 1s forwards');
-      await parent('section3', 'animation 1s forwards');
+      await scriptAnimation('section1', 'animation 1s forwards');
+      await scriptAnimation('section2', 'animation2 1s forwards');
     }
     animation()
   }, []);
@@ -24,7 +23,7 @@ export default function HomeCard(){
 
 
   return(
-    <div  className="w-full h-full md:flex justify-between overflow-hidden pb-2">
+    <div  className="w-full h-full md:flex justify-between overflow-hidden">
       <div id='section1' className='w-screen md:w-1/2 flex justify-start'>
         <img
           src={'image/profile.png'}
