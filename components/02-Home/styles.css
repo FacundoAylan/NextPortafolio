@@ -1,10 +1,10 @@
-#section1, #section3 {
+#section1 {
   transform: scale(0);
   animation: none;
   opacity: 0;
 }
 
-#section1 img ,#section3 img {
+#section1 img {
   filter: drop-shadow(10px 2px 20px #a87dcc);
   overflow: visible;
   mask-image: linear-gradient(black 95%, transparent);
@@ -22,7 +22,7 @@
 
 @keyframes animation2 {
   from {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
   to {
     transform: translateX(0%)

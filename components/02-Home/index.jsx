@@ -24,16 +24,15 @@ export default function HomeCard(){
 
 
   return(
-    <div  className="w-full h-full flex flex-col justify-center md:justify-between md:flex-row overflow-hidden">
-      <div id='section1' className=' w-full md:hidden flex justify-center'>
+    <div  className="w-full h-full md:flex justify-between overflow-hidden pb-2">
+      <div id='section1' className='w-screen md:w-1/2 flex justify-start'>
         <img
           src={'image/profile.png'}
-          className='w-3/4'
         />
       </div>
-      <div id='section2' className="w-full md:w-1/2 md:h-full flex flex-col justify-center items-center md:pt-16">
+      <div id='section2' className="w-screen md:w-1/2 lg:h-full flex flex-col justify-center items-center lg:mt-6">
         <h1 
-          className="text-2xl md:text-3xl lg:text-5xl font-black tracking-wide uppercase text-center text-[#a87dcc]"
+          className="text-2xl lg:text-5xl 2xl:text-6xl font-black tracking-wide uppercase text-center text-[#a87dcc]"
         >
           Full Stack developer
         </h1>
@@ -94,11 +93,7 @@ export default function HomeCard(){
           </Link>
         </div>
       </div>
-      <div id='section3' className='md:w-1/2 hidden md:flex justify-end '>
-        <img
-          src={'image/profile.png'}
-        />
-      </div>
+
     </div>
   )
 }

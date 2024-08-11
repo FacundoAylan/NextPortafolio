@@ -20,30 +20,30 @@ export default function Home() {
 
   return (
     <main className="w-full h-full relative">
-      <header className="w-full h-22 md:h-16 fixed z-10">
+      <header className="w-full h-16 fixed z-10">
         <NavBar scrollSection={scrollSection}/>
       </header>
       <section 
         id="home"
-        className="w-full h-screen"
+        className="w-full min-h-full lg:h-screen flex items-center lg:pt-16"
       >
         <HomeCard/>
       </section>
       <section 
         id="about"
-        className="w-full h-screen pt-8 lg:pt-16"
+        className="w-full min-h-full lg:h-screen flex items-center pt-16"
       >
         <About/>
       </section>
       <section 
         id="skills"
-        className="w-full h-screen pt-8 lg:pt-20 xl:pt-8"
+        className="w-full min-h-full lg:h-screen flex items-center pt-16"
       >
         <Skill/>
       </section>
       <section 
         id="projects"
-        className="w-full h-screen pt-8 lg:pt-32 2xl:pt-20"
+        className="w-full h-screen flex items-center pt-16"
       >
         <Proyect/>
       </section>
