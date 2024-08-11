@@ -12,3 +12,20 @@
   background-size: cover; 
   background-position: center; 
 }
+
+
+@keyframes traslateProjects {
+  from {
+    transform: translateX(100%);
+  }to{
+    transform: translateX(0);
+  }
+}
+
+@keyframes traslateTitle {
+  from {
+    transform: translateX(-100%);
+  }to{
+    transform: translateX(0);
+  }
+}

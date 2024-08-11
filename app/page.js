@@ -31,19 +31,19 @@ export default function Home() {
       </section>
       <section 
         id="about"
-        className="w-full min-h-screen pt-8 lg:pt-16"
+        className="w-full h-screen pt-8 lg:pt-16"
       >
         <About/>
       </section>
       <section 
         id="skills"
-        className="w-full min-h-screen pt-8 lg:pt-20"
+        className="w-full h-screen pt-8 lg:pt-20 xl:pt-8"
       >
         <Skill/>
       </section>
       <section 
         id="projects"
-        className="w-full h-screen pt-8 lg:pt-20"
+        className="w-full h-screen pt-8 lg:pt-32 2xl:pt-20"
       >
         <Proyect/>
       </section>

@@ -14,10 +14,10 @@ export default function Skill(){
   },[]);
 
   return(
-    <div className="w-full h-full"> 
+    <div className="w-full h-full lg:flex lg:justify-center lg:flex-col"> 
       <div>
-        <h1 id='titlesSkills' className="text-center text-3xl font-black text-[#a87dcc] mt-4">Front End</h1>
-        <div className="w-full h-2/4 flex gap-8 flex-wrap overflow-hidden justify-center mt-6">
+        <h1 id='titlesSkills' className="text-center text-3xl font-black text-[#a87dcc] mt-4 lg:text-5xl">Front End</h1>
+        <div className="w-full h-2/4 flex gap-8 flex-wrap overflow-hidden justify-center mt-6 2xl:mt-8">
           <CardImage url='/image/skillsImage/css.svg' name='css'/>
           <CardImage url='/image/skillsImage/chakraui.svg' name='chakra ui'/>
           <CardImage url='/image/skillsImage/tailwindcss.svg' name='Tailwind'/>
@@ -29,8 +29,8 @@ export default function Skill(){
         </div>
       </div>
       <div>
-        <h1 id='titlesSkills1' className="text-center text-3xl font-black text-[#a87dcc] mt-4">Back End</h1>
-        <div className="w-full h-2/4 flex gap-8 flex-wrap overflow-hidden justify-center mt-6">
+        <h1 id='titlesSkills1' className="text-center text-3xl font-black text-[#a87dcc] mt-4 2xl:mt-6 lg:text-5xl">Back End</h1>
+        <div className="w-full h-2/4 flex gap-8 flex-wrap overflow-hidden justify-center mt-6 2xl:mt-8">
           <CardImage url='/image/skillsImage/python.svg' name='Python'/>
           <CardImage url='/image/skillsImage/express.svg' name='Express js'/>
           <CardImage url='/image/skillsImage/node.svg' name='Node js'/>
@@ -39,8 +39,8 @@ export default function Skill(){
         </div>
       </div>
       <div>
-        <h1 id='titlesSkills2' className="text-center text-3xl font-black text-[#a87dcc] mt-4">Herramientas</h1>
-        <div className="w-full h-2/4 flex gap-6 flex-wrap overflow-hidden justify-center mt-6">
+        <h1 id='titlesSkills2' className="text-center text-3xl font-black text-[#a87dcc] mt-4 2xl:mt-6 lg:text-5xl">Herramientas</h1>
+        <div className="w-full h-2/4 flex gap-6 flex-wrap overflow-hidden justify-center mt-6 2xl:mt-8">
           <CardImage url='/image/skillsImage/windows.svg' name='Windows'/>
           <CardImage url='/image/skillsImage/linux.svg' name='Linux'/>
           <CardImage url='/image/skillsImage/git.svg' name='Git'/>
