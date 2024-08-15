@@ -8,7 +8,7 @@ export default function NavBar({ scrollSection }) {
 
   return (
     <div className="w-full h-full title flex justify-between  px-2 lg:px-6 items-center">
-      <h1 className=" font-title text-4xl font-black text-white">
+      <h1 className=" nameTitle text-4xl font-black text-[#a87dcc] tracking-widest">
         Facundo Aylan
       </h1>
       <li className="hidden md:flex gap-4 font-bold">
@@ -20,7 +20,7 @@ export default function NavBar({ scrollSection }) {
             Inicio
           </button>
         </ul>
-        <ul className="relative h-10 w-20 fondo rounded">
+        <ul className="relative h-10 w-24 fondo rounded">
           <button
             className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
             onClick={() => scrollSection("about")}

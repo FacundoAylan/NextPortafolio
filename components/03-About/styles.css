@@ -1,3 +1,6 @@
+.titleAbout{
+  font-family: text;
+}
 @keyframes traslateTitle {
   from{
     transform: translateY(-100%);

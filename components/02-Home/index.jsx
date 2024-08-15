@@ -31,7 +31,7 @@ export default function HomeCard(){
       </div>
       <div id='section2' className="w-screen md:w-1/2 lg:h-full flex flex-col justify-center items-center lg:mt-6">
         <h1 
-          className="text-2xl lg:text-5xl 2xl:text-6xl font-black tracking-wide uppercase text-center text-[#a87dcc]"
+          className="homeTitle text-2xl lg:text-5xl 2xl:text-6xl font-black tracking-widest uppercase text-center text-[#a87dcc]"
         >
           Full Stack developer
         </h1>

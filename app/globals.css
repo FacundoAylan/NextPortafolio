@@ -20,4 +20,7 @@ body {
   background-position: center; 
 }
 
-
+@font-face {
+  font-family: text;
+  src: url('/font/titles.ttf') format('truetype');;
+}
