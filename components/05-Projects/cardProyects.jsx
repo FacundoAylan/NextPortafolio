@@ -17,9 +17,9 @@ export default function CardProjects({ image, title, subtitle, right, video, git
         <h1 className=" text-36 text-center text-[#a87dcc] font-black w-full tracking-wider">{title}</h1>
         <h3 className='text-center text-[#a87dcc] font-black'>{subtitle}</h3>
         <div className='flex justify-center gap-2 p-2'>
-          {right.map((skill)=>{
+          {right.map((skill, index)=>{
             return(
-              <div className='border-2 border-[#a87dcc] rounded-lg hover:scale-110'>
+              <div key={index} className='border-2 border-[#a87dcc] rounded-lg hover:scale-110'>
                 <img src={skill.icon} width={30} height={30}/>
               </div>
             )
