@@ -16,3 +16,8 @@ body {
   src: url('/font/titles.ttf') format('truetype');;
 }
 
+@font-face {
+  font-family: name;
+  src: url('/font/name.ttf') format('truetype');
+}
+

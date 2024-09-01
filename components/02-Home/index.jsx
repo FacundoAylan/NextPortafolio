@@ -23,7 +23,7 @@ export default function HomeCard(){
 
 
   return(
-    <div  className="w-full h-full flex items-center justify-center flex-col md:flex-row md:justify-between overflow-hidden">
+    <div  className=" home w-full h-full flex items-center justify-center flex-col md:flex-row md:justify-between overflow-hidden">
       <div id='section1' className='w-screen lg:w-1/2 flex justify-center lg:justify-start'>
         <img
           src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/profile.png?alt=media&token=45b6d63d-570b-40d7-b0c8-c5163fcdb070'}

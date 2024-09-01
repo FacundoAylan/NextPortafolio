@@ -29,6 +29,10 @@
   }
 }
 
+.home{
+  font-family: name;
+  letter-spacing: 4px;
+}
 .homeTitle{
   font-family: text;
 }

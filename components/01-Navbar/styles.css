@@ -2,6 +2,9 @@
   background: transparent;
   backdrop-filter: blur(20px);
 }
+.nameTitle {
+  font-family: name;
+}
 
 .progressbar{
   width: 0%;

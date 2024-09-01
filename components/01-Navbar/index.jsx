@@ -16,13 +16,13 @@ export default function NavBar({ scrollSection }) {
 
   return (
     <div className="w-full h-full title flex justify-between  px-2 lg:px-6 items-center">
-      <h1 className=" nameTitle text-4xl md:text-3xl lg:text-4xl font-black text-[#a87dcc] tracking-widest">
+      <h1 className=" nameTitle text-2xl md:text-3xl lg:text-4xl font-black text-[#a87dcc] tracking-widest">
         Facundo Aylan
       </h1>
       <li className="hidden md:flex font-bold">
         <ul className="relative h-10 w-auto">
           <button
-            className={`${selectButton === 'home'? 'fondo':''} px-2 flex items-center justify-center text-white h-full w-full`}
+            className={`${selectButton === 'home'? 'fondo normal-case':''} uppercase px-2 flex items-center justify-center text-white h-full w-full`}
             onClick={()=>handleClick("home")}
           >
             {
@@ -40,7 +40,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-auto">
           <button
-            className={`${selectButton ==='about'? 'fondo':''} px-2 flex justify-center items-center text-white h-full w-full`}
+            className={`${selectButton ==='about'? 'fondo normal-case':''} uppercase px-2 flex justify-center items-center text-white h-full w-full`}
             onClick={()=>handleClick("about")}
           >
             {
@@ -59,7 +59,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-auto">
           <button
-            className={`${selectButton === 'skills'?'fondo' : ''} px-2 flex justify-center items-center text-white h-full w-full`}
+            className={`${selectButton === 'skills'?'fondo normal-case':''} uppercase px-2 flex justify-center items-center text-white h-full w-full`}
             onClick={() => handleClick("skills")}
           >
             {
@@ -77,7 +77,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-auto">
           <button
-            className={`${selectButton === 'projects'? 'fondo':''} px-2 flex jsutify-center items-center text-white h-full w-full`}
+            className={`${selectButton === 'projects'? 'fondo normal-case':''} uppercase px-2 flex jsutify-center items-center text-white h-full w-full`}
             onClick={() => handleClick("projects")}
           >
             {
@@ -96,7 +96,7 @@ export default function NavBar({ scrollSection }) {
         </ul>
         <ul className="relative h-10 w-auto">
           <button
-            className={`${selectButton ==='certificados'? 'fondo':''} px-2 flex jsutify-center items-center  text-white h-full w-full`}
+            className={`${selectButton ==='certificados'? 'fondo normal-case':''} uppercase px-2 flex jsutify-center items-center  text-white h-full w-full`}
             onClick={() => handleClick("certificados")}
           >
             {

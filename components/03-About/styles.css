@@ -1,6 +1,11 @@
 .titleAbout{
   font-family: text;
 }
+
+.about {
+  font-family: name;
+  letter-spacing: 2px;
+}
 @keyframes traslateTitle {
   from{
     transform: translateY(-100%);

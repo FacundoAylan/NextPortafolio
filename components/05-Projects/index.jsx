@@ -30,7 +30,7 @@ export default function Proyect(){
   const [infoModal, setInfo] = useState('')
   
   return(
-    <div className="w-full h-full relative">
+    <div className="projects w-full h-full relative">
       <h1 id='titleProjects' className="w-full h-1/5 text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
       <div id='projects' className=" w-full h-4/5 hidden md:flex gap-8 px-6 flex-wrap  justify-center">
         {slides.map((slide, index) => {

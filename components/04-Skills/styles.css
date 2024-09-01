@@ -2,6 +2,10 @@
   animation: none;
   backdrop-filter: blur(10px);
 }
+.skills {
+  font-family: name;
+  letter-spacing: 2px;
+}
 @keyframes traslateCard {
   from {
     transform: translateX(100%);

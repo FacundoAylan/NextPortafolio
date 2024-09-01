@@ -13,7 +13,10 @@
   background-position: center; 
 }
 
-
+.projects {
+  font-family: name;
+  letter-spacing: 3px;
+}
 @keyframes traslateProjects {
   from {
     transform: translateX(100%);

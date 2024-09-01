@@ -12,7 +12,7 @@ export default function Skill(){
   // },[]);
 
   return(
-    <div id='skillsCard' className="w-full h-full lg:flex lg:justify-center lg:flex-col"> 
+    <div id='skillsCard' className="skills w-full h-full lg:flex lg:justify-center lg:flex-col"> 
       <div >
         <h1 className="text-center text-3xl font-black text-[#a87dcc] mt-4 lg:text-5xl">Front End</h1>
         <div className="w-full h-2/4 flex gap-8 flex-wrap overflow-hidden justify-center mt-6 2xl:mt-8">
