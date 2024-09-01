@@ -5,50 +5,111 @@ import "./styles.css";
 export default function NavBar({ scrollSection }) {
   
   const [openMenu, setOpenMenu] = useState(false);
+  const [selectButton, setSelectButton] = useState('home');
+
+  const handleClick = (selectId)=>{
+    scrollSection(selectId);
+    setTimeout(()=>{
+      setSelectButton(selectId);
+    },0);
+  }
 
   return (
     <div className="w-full h-full title flex justify-between  px-2 lg:px-6 items-center">
       <h1 className=" nameTitle text-4xl md:text-3xl lg:text-4xl font-black text-[#a87dcc] tracking-widest">
         Facundo Aylan
       </h1>
-      <li className="hidden md:flex gap-4 font-bold">
-        <ul className="relative h-10 w-16 fondo rounded">
+      <li className="hidden md:flex font-bold">
+        <ul className="relative h-10 w-auto">
           <button
-            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-6px] hover:translate-y-[-4px]"
-            onClick={() => scrollSection("home")}
+            className={`${selectButton === 'home'? 'fondo':''} px-2 flex items-center justify-center text-white h-full w-full`}
+            onClick={()=>handleClick("home")}
           >
+            {
+              selectButton === 'home'?(
+                <img 
+                  src={'/navBar/home.png'}
+                  width="20" 
+                  height="18" 
+                  style={{ marginRight: '0.2rem' }}
+                />
+              ):('')
+            }
             Inicio
           </button>
         </ul>
-        <ul className="relative h-10 w-24 fondo rounded">
+        <ul className="relative h-10 w-auto">
           <button
-            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
-            onClick={() => scrollSection("about")}
+            className={`${selectButton ==='about'? 'fondo':''} px-2 flex justify-center items-center text-white h-full w-full`}
+            onClick={()=>handleClick("about")}
           >
+            {
+              selectButton === 'about'?(
+                <img 
+                  src={'/navBar/about.png'}
+                  width="20" 
+                  height="18" 
+                  style={{ marginRight: '0.2rem' }}
+                />
+                
+              ):('')
+            }
             sobre mi
           </button>
         </ul>
-        <ul className="relative h-10 w-16 fondo rounded">
+        <ul className="relative h-10 w-auto">
           <button
-            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
-            onClick={() => scrollSection("skills")}
+            className={`${selectButton === 'skills'?'fondo' : ''} px-2 flex justify-center items-center text-white h-full w-full`}
+            onClick={() => handleClick("skills")}
           >
+            {
+              selectButton === 'skills'?(
+                <img 
+                  src={'/navBar/skills.png'}
+                  width="20" 
+                  height="18" 
+                  style={{ marginRight: '0.2rem' }}
+                />
+              ):('')
+            }
             Skills
           </button>
         </ul>
-        <ul className="relative h-10 w-24 fondo rounded">
+        <ul className="relative h-10 w-auto">
           <button
-            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-4px] hover:translate-y-[-4px]"
-            onClick={() => scrollSection("projects")}
+            className={`${selectButton === 'projects'? 'fondo':''} px-2 flex jsutify-center items-center text-white h-full w-full`}
+            onClick={() => handleClick("projects")}
           >
+            {
+              selectButton === 'projects'?(
+                <img 
+                  src={'/navBar/proyectos.png'}
+                  width="20" 
+                  height="18" 
+                  style={{ marginRight: '0.2rem' }}
+                />
+                
+              ):('')
+            }
             Proyectos
           </button>
         </ul>
-        <ul className="relative h-10 w-28 fondo rounded ">
+        <ul className="relative h-10 w-auto">
           <button
-            className="text-white h-full w-full bg-[#6c2f9e] border-2  border-white p-1 rounded absolute z-10 hover:translate-x-[-5px] hover:translate-y-[-4px]"
-            onClick={() => scrollSection("certificados")}
+            className={`${selectButton ==='certificados'? 'fondo':''} px-2 flex jsutify-center items-center  text-white h-full w-full`}
+            onClick={() => handleClick("certificados")}
           >
+            {
+              selectButton === 'certificados'?(
+                <img 
+                  src={'/navBar/certificados.png'}
+                  width="20" 
+                  height="18" 
+                  style={{ marginRight: '0.2rem' }}
+                />
+                
+              ):('')
+            }
             Certificados
           </button>
         </ul>

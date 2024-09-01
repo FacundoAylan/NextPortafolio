@@ -18,5 +18,16 @@
 }
 
 .fondo{
-  background-color: #6c2f9e; 
-  box-shadow: 2px 2px 2px #a87dcc;}
+  box-shadow: 2px 2px 2px #a87dcc;
+  animation: animationButton .4s forwards;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+@keyframes animationButton {
+  from{
+    background-color: transparent;
+  }to{
+    background-color: #6c2f9e;
+  }
+}
