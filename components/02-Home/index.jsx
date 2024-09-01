@@ -64,10 +64,9 @@ export default function HomeCard(){
             />
             <p className="font-bold">Linkedin</p>
           </Link>
-          <Link 
-            href='https://www.linkedin.com/in/facundo-aylan-582b52257/'
-            target='_blank'
-            rel="noopener noreferrer"
+          <a 
+            href='/FacundoAylan.pdf'
+            download
             className='hover:scale-110 flex flex-col justify-center items-center'
           >
             <img
@@ -76,7 +75,7 @@ export default function HomeCard(){
               height={70}
             />
             <p className="font-bold">CV</p>
-          </Link>
+          </a>
           <Link 
             href={mailtoLink}
             target='_blank'
