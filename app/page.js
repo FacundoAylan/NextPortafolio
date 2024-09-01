@@ -24,13 +24,13 @@ export default function Home() {
       </header>
       <section 
         id="home"
-        className="w-full min-h-full lg:h-screen flex items-center lg:pt-16 pb-2"
+        className="w-full min-h-screen flex items-center lg:pt-16"
       >
         <HomeCard/>
       </section>
       <section 
         id="about"
-        className="w-full min-h-full lg:h-screen flex items-center pt-16 pb-2"
+        className="w-full min-h-full lg:h-screen flex items-center pt-2 md:pt-16 pb-2"
       >
         <About/>
       </section>

@@ -31,15 +31,15 @@ export default function About(){
             <h3 className="text-center font-black text-3xl text-[#a87dcc] 2xl:text-5xl">Intereses</h3>
             <div className="flex w-full flex-wrap justify-center h-full gap-8 mt-4 ">
               <img 
-                src='/image/portatil.png'
+                src='https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/portatil.png?alt=media&token=f1f10402-b469-4ebb-a97b-2a596aa6003f'
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
               <img 
-                src='/image/electronica.png'
+                src='https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/electronica.png?alt=media&token=21eab295-aace-417c-8776-88b76868dcdb'
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
               <img 
-                src='/image/gamer.png'
+                src='https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/gamer.png?alt=media&token=d9f90823-8e99-42c8-8570-9f96b9df6a64'
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
               <img 
@@ -47,11 +47,11 @@ export default function About(){
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
               <img 
-                src='/image/peliculas.png'
+                src='https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/peliculas.png?alt=media&token=2ce098ac-8b75-4afb-a009-7c538cd202c8'
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
               <img 
-                src='/image/codigo.png'
+                src='https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/codigo.png?alt=media&token=42e71aa0-31e2-4ae9-822e-38bee6b22c81'
                 className="w-20 h-20 border-2 border-white p-1 rounded-xl bg-[#a87dcc]"
               />
             </div>

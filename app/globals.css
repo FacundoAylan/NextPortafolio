@@ -2,25 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   padding: 0;
   margin: 0;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100vh;
-  background-image: url('/image/background.jpg');
-  background-size: cover; 
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/background.jpg?alt=media&token=2304ccc3-9f58-4a38-b514-aeddbc7b6824');
+  background-size: contain; 
   background-position: center; 
+  min-height: 100vh;
 }
 
 @font-face {
   font-family: text;
   src: url('/font/titles.ttf') format('truetype');;
 }
+

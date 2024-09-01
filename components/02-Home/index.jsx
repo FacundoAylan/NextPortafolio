@@ -23,10 +23,10 @@ export default function HomeCard(){
 
 
   return(
-    <div  className="w-full h-full md:flex justify-between overflow-hidden">
-      <div id='section1' className='w-screen md:w-1/2 flex justify-start'>
+    <div  className="w-full h-full flex items-center justify-center flex-col md:flex-row md:justify-between overflow-hidden">
+      <div id='section1' className='w-screen lg:w-1/2 flex justify-center lg:justify-start'>
         <img
-          src={'image/profile.png'}
+          src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/profile.png?alt=media&token=45b6d63d-570b-40d7-b0c8-c5163fcdb070'}
         />
       </div>
       <div id='section2' className="w-screen md:w-1/2 lg:h-full flex flex-col justify-center items-center lg:mt-6">
@@ -45,7 +45,7 @@ export default function HomeCard(){
             
           >
             <img
-              src={'image/github.png'}
+              src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/github.png?alt=media&token=6df2ab81-c6b8-474d-9533-d7d5a37f0210'}
               width={70}
               height={70}
             />
@@ -58,7 +58,7 @@ export default function HomeCard(){
             className='hover:scale-110 flex flex-col justify-center items-center'
           >
             <img
-              src={'image/linkedin.png'}
+              src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/linkedin.png?alt=media&token=a046f4dd-62aa-4023-ba11-fcd4e9b3e8e2'}
               width={70}
               height={70}
             />
@@ -71,7 +71,7 @@ export default function HomeCard(){
             className='hover:scale-110 flex flex-col justify-center items-center'
           >
             <img
-              src={'image/cv.png'}
+              src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/cv.png?alt=media&token=3c46b61b-1216-4057-b4b6-35c1d848aa81'}
               width={70}
               height={70}
             />
@@ -84,7 +84,7 @@ export default function HomeCard(){
             className='hover:scale-110 flex flex-col justify-center items-center'
           >
             <img
-              src={'image/email.png'}
+              src={'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/email.png?alt=media&token=44e17eb5-6623-4331-a629-8d8147d77015'}
               width={70}
               height={70}
             />

@@ -12,7 +12,7 @@ const next ='/image/skillsImage/next.svg';
 
 export const slides = [
   {
-    image: '/image/ProyectsImg/image1.png',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage1.png?alt=media&token=af9c44bf-2cf2-4948-976a-0e4d6e1ef230',
     title: 'Card model',
     subtitle: 'FontEnd',
     rightSubtitle: [
@@ -23,7 +23,7 @@ export const slides = [
     video:'https://player.vimeo.com/video/940176559?h=4325dfd2bc'
   },
   {
-    image: '/image/ProyectsImg/image2.png',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage2.png?alt=media&token=c2587505-a964-4ab1-b8a6-51f217058191',
     title: 'Harmoni wisch',
     subtitle: 'Fullstack',
     rightSubtitle: [
@@ -36,7 +36,7 @@ export const slides = [
     video:'https://player.vimeo.com/video/919405266?h=c46cdc3062'
   },
   {
-    image: '/image/ProyectsImg/image3.png',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage3.png?alt=media&token=80b2cbfc-8f1f-49f3-a3b6-c79fd014c633',
     title: 'Mind my emotion',
     subtitle: 'FontEnd',
     rightSubtitle: [
@@ -48,7 +48,7 @@ export const slides = [
     video:'https://player.vimeo.com/video/918885871?h=f12eefdd28'
   },
   {
-    image: '/image/ProyectsImg/image4.png',
+    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage4.png?alt=media&token=03894020-98ff-4f19-9a77-aac08065fbeb',
     title: 'Weather',
     subtitle: 'FrontEnd',
     rightSubtitle: [{name:'React js',icon:react},{name:'css', icon:css}],
@@ -56,7 +56,7 @@ export const slides = [
     video:'https://player.vimeo.com/video/918882766?h=66465acb78'
   },
   {
-    image: '/image/ProyectsImg/image5.png', 
+    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage5.png?alt=media&token=c9088835-bedb-40ac-996a-2fe6d869f7cd', 
     title: 'Portafolio',
     subtitle: 'Font End',
     rightSubtitle: [{name:'React js',icon:react},{name:'redux',icon:redux}, {name:'node js',icon:node},{name:'postgres', icon:postgres}],

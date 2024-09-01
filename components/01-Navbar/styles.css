@@ -6,7 +6,7 @@
 .progressbar{
   width: 0%;
   height: 100%;
-  box-shadow: 0 0 10px #6304b1;
+  box-shadow: 0 0 15px #6304b1;
   background: #8142b4;
   animation: resize auto linear forwards;
   animation-timeline: scroll(root block);

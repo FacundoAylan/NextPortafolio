@@ -8,7 +8,7 @@ export default function NavBar({ scrollSection }) {
 
   return (
     <div className="w-full h-full title flex justify-between  px-2 lg:px-6 items-center">
-      <h1 className=" nameTitle text-4xl font-black text-[#a87dcc] tracking-widest">
+      <h1 className=" nameTitle text-4xl md:text-3xl lg:text-4xl font-black text-[#a87dcc] tracking-widest">
         Facundo Aylan
       </h1>
       <li className="hidden md:flex gap-4 font-bold">
