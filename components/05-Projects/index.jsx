@@ -32,9 +32,27 @@ export default function Proyect(){
   return(
     <div className="projects w-full h-full relative">
       <h1 id='titleProjects' className="w-full h-1/5 text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
-      <div id='projects' className=" w-full h-4/5 hidden md:flex gap-8 px-6 flex-wrap  justify-center">
-        {slides.map((slide, index) => {
-          return (
+
+      <div id='projects2' className="w-full h-4/5 flex relative overflow-hidden">
+        <div className="w-full h-full absolute flex justify-center gap-8">
+          <button onClick={prevSlide} className="text-white font-black px-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <div className="w-full h-full hidden md:flex justify-center items-center gap-12">
+            {slides.slice(currentIndex, currentIndex + 2).map((slide, index) => (
               <CardProjects
                 key={index}
                 image={slide.image}
@@ -48,60 +66,42 @@ export default function Proyect(){
                 setModal={setModal}
                 setInfo={setInfo}
               />
-              );
-        })}
-      </div>
-
-      <div id='projects2' className="w-full h-4/5 flex gap-2 items-center relative md:hidden mt-4">
-        <button onClick={prevSlide} className="absolute z-10 text-white left-6 top-1/4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-        </button>
-        <div className="w-full h-full absolute flex justify-center">
-          {slides.slice(currentIndex, currentIndex + 1).map((slide, index) => (
-            <CardProjects
-              key={index}
-              image={slide.image}
-              title={slide.title}
-              subtitle={slide.subtitle}
-              content={slide.content}
-              right={slide.rightSubtitle}
-              video={slide.video}
-              github={slide.github}
-              modal={modal}
-              setModal={setModal}
-              setInfo={setInfo}
-            />
-          ))}
+            ))}
+          </div>
+          <div className="w-full h-full flex justify-center items-center gap-12 md:hidden">
+            {slides.slice(currentIndex, currentIndex + 1).map((slide, index) => (
+              <CardProjects
+                key={index}
+                image={slide.image}
+                title={slide.title}
+                subtitle={slide.subtitle}
+                content={slide.content}
+                right={slide.rightSubtitle}
+                video={slide.video}
+                github={slide.github}
+                modal={modal}
+                setModal={setModal}
+                setInfo={setInfo}
+              />
+            ))}
+          </div>
+          <button onClick={nextSlide} className="text-white px-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
         </div>
-        <button onClick={nextSlide} className="absolute z-10 text-white right-6 top-1/4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </button>
       </div>
       { modal && (
         <div className="modal absolute z-8 w-full h-full top-0 px-6">

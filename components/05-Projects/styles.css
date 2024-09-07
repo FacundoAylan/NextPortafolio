@@ -1,6 +1,16 @@
 .containerCard{
   box-shadow: 0px 0px 16px white;
+  & img{
+    object-fit: container;
+    padding: 6px;
+    border-radius: 16px;
+  }
 }
+
+.titlecard {
+  font-family: name;
+}
+
 .info {
   background-image: url('/image/background.jpg');
   background-size: cover; 
