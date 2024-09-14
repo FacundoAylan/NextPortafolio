@@ -31,7 +31,7 @@ export default function Proyect(){
   
   return(
     <div className="projects w-full h-full relative">
-      <h1 id='titleProjects' className="w-full h-1/5 text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
+      <h1 id='titleProjects' className="w-full text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
 
       <div id='projects2' className="w-full h-4/5 flex relative overflow-hidden">
         <div className="w-full h-full absolute flex justify-center gap-8">
@@ -68,7 +68,7 @@ export default function Proyect(){
               />
             ))}
           </div>
-          <div className="w-full h-full flex justify-center items-center gap-12 md:hidden">
+          <div className="w-full h-full flex justify-center items-center gap-12 sm:w-1/3 md:hidden">
             {slides.slice(currentIndex, currentIndex + 1).map((slide, index) => (
               <CardProjects
                 key={index}

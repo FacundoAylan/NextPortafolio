@@ -1,5 +1,4 @@
 'use client';
-import NavBar from "@/components/01-Navbar";
 import HomeCard from "@/components/02-Home";
 import About from "@/components/03-About";
 import Skill from "@/components/04-Skills";
@@ -8,41 +7,29 @@ import Titles from "@/components/06-Title";
 
 export default function Home() {
 
-  const scrollSection= (id)=>{
-
-    const section = document.getElementById(id);
-
-    if(section){
-      section.scrollIntoView({behavior: 'smooth'});
-    }
-  }
-
   return (
-    <main className="w-full h-full relative">
-      <header className="w-full h-16 fixed z-10">
-        <NavBar scrollSection={scrollSection}/>
-      </header>
+    <main className="w-full h-full">
       <section 
-        id="home"
-        className="w-full min-h-screen flex items-center lg:pt-16"
+        id="home" 
+        className="w-full h-[calc(100vh-64px)] mt-16 overflow-hidden"
       >
         <HomeCard/>
       </section>
       <section 
         id="about"
-        className="w-full min-h-full lg:h-screen flex items-center pt-2 md:pt-16 pb-2"
+        className="w-full min-h-full md:h-[calc(100vh-64px)] mt-16"
       >
         <About/>
       </section>
       <section 
         id="skills"
-        className="w-full min-h-full lg:h-screen flex items-center pt-16 pb-2"
+        className="w-full min-h-full md:h-[calc(100vh-64px)] mt-16"
       >
         <Skill/>
       </section>
       <section 
         id="projects"
-        className="w-full h-screen flex items-center pt-16"
+        className="w-full h-screen md:h-[calc(100vh-64px)] mt-16"
       >
         <Proyect/>
       </section>
