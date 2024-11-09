@@ -59,7 +59,7 @@ export default function Proyect(){
                 title={slide.title}
                 subtitle={slide.subtitle}
                 content={slide.content}
-                right={slide.rightSubtitle}
+                icons={slide.icons}
                 video={slide.video}
                 github={slide.github}
                 modal={modal}
@@ -75,8 +75,7 @@ export default function Proyect(){
                 image={slide.image}
                 title={slide.title}
                 subtitle={slide.subtitle}
-                content={slide.content}
-                right={slide.rightSubtitle}
+                icons={slide.icons}
                 video={slide.video}
                 github={slide.github}
                 modal={modal}
