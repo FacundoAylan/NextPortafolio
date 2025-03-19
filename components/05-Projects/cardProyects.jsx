@@ -41,7 +41,7 @@ export default function CardProjects({ image, title, subtitle, icons, video, git
           </div>
 
           <button 
-            className="titlecard text-xl py-2 px-4 rounded-b-2xl font-black tracking-wider text-white bg-[#a87dcc] hover:text-2x"
+            className="font-mono text-xl py-2 px-4 rounded-b-2xl font-black tracking-wider text-white bg-[#a87dcc] hover:text-2x"
             onClick={activateModal}
           >
             View

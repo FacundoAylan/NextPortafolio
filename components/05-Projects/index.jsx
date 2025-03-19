@@ -6,15 +6,6 @@ import { scriptAnimation } from "@/app/script";
 
 export default function Proyect(){
 
-  // useEffect(()=>{
-  //   const animation = async()=>{
-  //     await scriptAnimation('titleProjects', 'traslateTitle 1s forwards');
-  //     await scriptAnimation('projects', 'traslateProjects 1s forwards');
-  //     await scriptAnimation('projects2', 'traslateProjects 1s forwards');
-  //   }
-  //   animation()
-  // },[]);
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -30,7 +21,7 @@ export default function Proyect(){
   const [infoModal, setInfo] = useState('')
   
   return(
-    <div className="projects w-full h-full relative">
+    <div className="projects w-full h-full relative pt-2">
       <h1 id='titleProjects' className="w-full text-center text-6xl text-[#a87dcc] font-black">Proyectos</h1>
 
       <div id='projects2' className="w-full h-4/5 flex relative overflow-hidden">

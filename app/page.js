@@ -8,7 +8,7 @@ import Titles from "@/components/06-Title";
 export default function Home() {
 
   return (
-    <main className="w-full h-full">
+    <main className="w-full min-h-screen">
       <section 
         id="home" 
         className="w-full h-[calc(100vh-64px)] mt-16 overflow-hidden"
@@ -23,13 +23,13 @@ export default function Home() {
       </section>
       <section 
         id="skills"
-        className="w-full min-h-full md:h-[calc(100vh-64px)] mt-16"
+        className="w-full min-h-full md:h-auto mt-16"
       >
         <Skill/>
       </section>
       <section 
         id="projects"
-        className="w-full h-screen md:h-[calc(100vh-64px)] mt-16"
+        className="w-full h-screen mt-16"
       >
         <Proyect/>
       </section>
