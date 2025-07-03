@@ -1,8 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/01-Navbar";
-import { scrollSection } from "./scroll";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -21,12 +18,10 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content="Portafolio de Facundo Aylan" />
         <meta property="og:description" content="Portafolio personal en el cual demuestro mis habilidades." />
         <meta property="og:image" content="/image/profile.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
 
       </head>
-      <body className={`${inter.className} h-full`}>
-        <header className="fixed top-0 left-0 w-full h-16 z-50">
-          <NavBar scrollSection={scrollSection}/>
-        </header>
+      <body className={`${inter.className}`}>
         <main>
           {children}
         </main>

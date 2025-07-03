@@ -9,45 +9,46 @@ const python ='/image/skillsImage/python.svg'
 const firebase ='/image/skillsImage/firebase.svg';
 const tailwind ='/image/skillsImage/tailwindcss.svg';
 const next ='/image/skillsImage/next.svg';
+const deepseek ='/image/skillsImage/deepseek.svg';
+const mysql ='/image/skillsImage/mysql.svg';
 
 export const slides = [
   {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Ffacebook.png?alt=media&token=28eabbcf-5719-442a-9be7-6c4c54cbbd43',
-    title: 'Facebook login',
-    subtitle: 'FontEnd',
+    title: 'Fluiana',
+    subtitle: 'FullStack',
     icons: [
-      {name:'Next js',icon:next},
-      {name:'tailwind css', icon: tailwind},
+      {name:'React js',icon: react},
+      {name:'Node js', icon: node},
     ],
-    github:'https://github.com/FacundoAylan/CurSort',
-    video:'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Ffacebook.webm?alt=media&token=d3adffb7-3921-4b57-975d-3507e52da9f8'
+    video:'https://player.vimeo.com/video/1098659637?h=c256e14450',
+    description:`Fluiana es una plataforma web desarrollada con React y Node.js que conecta pacientes con psicólogos de forma segura y eficiente.
+
+    🔐 Autenticación con JWT y validación en tiempo real.
+    📅 Agenda de sesiones con React Calendar.
+    💳 Pagos integrados vía Mercado Pago.
+    🎥 Videollamadas en tiempo real con ZegoCloud.
+    🧩 Stack: React, Tailwind, Node.js, Express, JWT, MongoDB / PostgreSQL.`
   },
   {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage1.png?alt=media&token=af9c44bf-2cf2-4948-976a-0e4d6e1ef230',
-    title: 'Card model',
-    subtitle: 'FontEnd',
+    title: 'Deepseek ai',
+    subtitle: 'FullStack',
     icons: [
-      {name:'Next js',icon:next},
-      {name:'tailwind css', icon: tailwind},
+      {name:'React js',icon:react},
+      {name:'Express', icon: express},
+      {name:'MYSQL', icon: mysql},
+      {name:'Tailwind', icon: tailwind},
+      {name:'Deepseek', icon: deepseek}
     ],
-    github:'https://github.com/FacundoAylan/CurSort',
-    video:'https://player.vimeo.com/video/940176559?h=4325dfd2bc'
+    video:'https://player.vimeo.com/video/1098661111?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    description: `Deepseek AI es una plataforma desarrollada con tecnologías FullStack que combina inteligencia artificial con una experiencia web moderna.
+      En el frontend se emplea React JS junto a Tailwind CSS para construir una interfaz intuitiva, responsiva y elegante.
+      El backend está impulsado por Node.js y Express, permitiendo procesamientos rápidos y seguros de los datos del usuario.
+      Utiliza MySQL como base de datos para almacenar información de forma estructurada y eficiente.
+      Además, integra Deepseek para potenciar las capacidades inteligentes del sistema y mejorar la interacción con el usuario.
+    `
+
   },
   {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage2.png?alt=media&token=c2587505-a964-4ab1-b8a6-51f217058191',
-    title: 'Harmoni wisch',
-    subtitle: 'Fullstack',
-    icons: [
-      {name:'React js',icon:react}, 
-      {name:'chakra ui', icon:chakraui},
-      {name:'Python',icon:python},
-      {name:'firebase', icon:firebase}
-    ],
-    github:'https://github.com/FacundoAylan/lavadero',
-    video:'https://player.vimeo.com/video/919405266?h=c46cdc3062'
-  },
-  {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage3.png?alt=media&token=80b2cbfc-8f1f-49f3-a3b6-c79fd014c633',
     title: 'Mind my emotion',
     subtitle: 'FontEnd',
     icons: [
@@ -55,24 +56,71 @@ export const slides = [
       {name:'Python',icon:python},
       {name:'firebase', icon:firebase}
     ],
-    github:'https://github.com/FacundoAylan/mindMyEmotions',
-    video:'https://player.vimeo.com/video/918885871?h=f12eefdd28'
+    video:'https://player.vimeo.com/video/918885871?h=f12eefdd28',
+    description: `Mind my Emotion es una aplicación móvil creada con React Native para brindar apoyo psicológico a jóvenes.
+      A través de actividades guiadas, ayuda a identificar emociones y afrontar conflictos personales de forma saludable.
+      Python se utiliza para procesar datos y generar recomendaciones basadas en el progreso del usuario.
+      Firebase permite gestionar el contenido y la autenticación de forma segura y en tiempo real.
+      La app busca ser una herramienta accesible e intuitiva para fomentar el bienestar emocional en la juventud.
+    `
   },
   {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage4.png?alt=media&token=03894020-98ff-4f19-9a77-aac08065fbeb',
+    title: 'Cursort',
+    subtitle: 'FullStack',
+    icons: [
+      {name:'React',icon:react}, 
+      {name:'Redux',icon:redux},
+      {name:'Node js', icon:node},
+      {name:'PostgresSQL', icon: postgres},
+    ],
+    video:'https://player.vimeo.com/video/791658238?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    description: `Cursort es una plataforma e-commerce para la venta de clases de programación, desarrollada como proyecto final FullStack.
+      Utiliza React y Redux en el frontend para una navegación fluida y gestión eficiente del estado.
+      El backend está construido con Node.js y una base de datos PostgresSQL, asegurando escalabilidad y estabilidad.
+      Diseñé e implementé tanto la parte visual como la lógica del negocio, integrando funcionalidades clave de compra y gestión.
+      Este proyecto refleja mi capacidad para construir soluciones completas y robustas, desde la interfaz hasta la base de datos.
+    `
+  },
+  {
     title: 'Weather',
     subtitle: 'FrontEnd',
     icons: [{name:'React js',icon:react},{name:'css', icon:css}],
-    github:'https://github.com/FacundoAylan/weather',
-    video:'https://player.vimeo.com/video/918882766?h=66465acb78'
+    video:'https://player.vimeo.com/video/918882766?h=66465acb78',
+    description: `Weather es una aplicación web construida con React JS que permite consultar el clima actual de tu provincia.
+      Utiliza APIs públicas para obtener datos meteorológicos en tiempo real con gran precisión.
+      El diseño está elaborado con CSS, enfocado en una interfaz limpia, moderna y responsiva.
+      Este proyecto demuestra mi habilidad para integrar servicios externos y manejar estados dinámicos en React.
+      Es ideal para quienes buscan información rápida y visualmente atractiva sobre el clima local.
+    `
   },
   {
-    image: 'https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/proyectos%2Fimage5.png?alt=media&token=c9088835-bedb-40ac-996a-2fe6d869f7cd', 
     title: 'Portafolio',
     subtitle: 'Font End',
-    icons: [{name:'React js',icon:react},{name:'redux',icon:redux}, {name:'node js',icon:node},{name:'postgres', icon:postgres}],
-    github:'https://github.com/FacundoAylan/Portafolio',
-    video:'https://player.vimeo.com/video/997507512?h=dbf30480f7'
+    icons: [
+      {name:'React js',icon:react},
+      {name:'redux',icon:redux}, 
+      {name:'Chakra ui',icon:chakraui},
+      {name:'css', icon:css}],
+    video:'https://player.vimeo.com/video/997507512?h=dbf30480f7',
+    description: `Este es mi portafolio personal construido con React JS, donde presento varios de mis proyectos frontend.
+      Utiliza Redux para gestionar eficientemente el estado global en componentes clave.
+      Tailwind CSS y estilos personalizados en CSS le dan una estética moderna, responsiva y coherente.
+      A través de este portafolio demuestro cómo organizo interfaces, aplico buenas prácticas y diseño con intención.
+      Es una vitrina funcional que refleja mi evolución como desarrollador y mi enfoque creativo en el desarrollo web.
+    `
   },
-
+  {
+    title: 'Card model',
+    subtitle: 'FontEnd',
+    icons: [
+      {name:'Next js',icon:next},
+      {name:'tailwind css', icon: tailwind},
+    ],
+    video:'https://player.vimeo.com/video/940176559?h=4325dfd2bc',
+    description: `Este proyecto es una tarjeta interactiva diseñada para destacar mis habilidades en diseño FrontEnd.
+      Utilicé Next.js para aprovechar la estructura moderna y dinámica del framework.
+      La estilización fue realizada con Tailwind CSS, logrando un diseño responsivo y elegante.
+      Cada elemento dentro de la tarjeta está pensado para resaltar la estética y accesibilidad del contenido.
+      Incluye animaciones suaves al pasar el cursor, aportando una experiencia visual atractiva.`
+  },
 ];

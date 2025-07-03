@@ -4,7 +4,7 @@
   opacity: 0;
 }
 
-#section1 img {
+.imageProfile {
   filter: drop-shadow(10px 2px 20px #a87dcc);
   overflow: visible;
   mask-image: linear-gradient(black 95%, transparent);

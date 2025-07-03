@@ -8,7 +8,7 @@ body {
   background-image: url('https://firebasestorage.googleapis.com/v0/b/portafolio-fac1a.appspot.com/o/background.jpg?alt=media&token=2304ccc3-9f58-4a38-b514-aeddbc7b6824');
   background-size: contain; 
   background-position: center; 
-  min-height: 100vh;
+  height: 100vh;
 }
 
 @font-face {
@@ -21,3 +21,14 @@ body {
   src: url('/font/name.ttf') format('truetype');
 }
 
+.border-neon {
+  text-shadow:
+    0 0 0 #a87dcc,
+    0 0 0 #a87dcc,
+    0 0 15px #a87dcc,
+    0 0 15px #c19be0,
+    0 0 10px #9964c5,
+    0 0 10px #694586,
+    0 0 10px #6d458f,
+    0 0 10px #c19be0;
+}
