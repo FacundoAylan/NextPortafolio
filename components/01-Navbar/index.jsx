@@ -14,7 +14,10 @@ export default function NavBar({ setFace }) {
       </h1>
       <li className="hidden md:flex font-bold font-orbitron">
       {menu.map((item, index) => (
-        <ul className="relative h-10 w-auto">
+        <ul 
+          className="relative h-10 w-auto"
+          key={index}
+        >
           <button
             className={` uppercase px-2 flex items-center justify-center text-[#a87dcc] h-full w-full`}
             onClick={() =>setFace(index)}
