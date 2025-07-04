@@ -37,7 +37,7 @@ const Projects = () => {
                   key={i}
                   className="bg-[#1a1a1a] text-white px-3 py-1 rounded-full text-sm font-medium flex items-center gap-2 border border-[#a87dcc]"
                 >
-                  <img src={icon.icon} alt={icon.name} className="w-5 h-5" />
+                  <img src={icon.icon} alt={icon.name} className="w-5 h-5"/>
                   {icon.name}
                 </span>
               ))}

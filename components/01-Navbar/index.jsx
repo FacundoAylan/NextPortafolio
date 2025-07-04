@@ -26,7 +26,7 @@ export default function NavBar({ setFace }) {
 
       </li>
       <button className="md:hidden" onClick={() => setOpenMenu(!openMenu)}>
-        <img width={50} height={50} src={"/image/hamburguesa.png"} />
+        <img width={50} height={50} src={"/image/hamburguesa.png"} alt="menu"/>
       </button>
       {openMenu && (
         <div className="w-[96%] h-auto fixed z-10 mt-96 overflow-hidden">

@@ -50,6 +50,7 @@ export default function HomeCard() {
           maskImage: 'linear-gradient(black 80%, transparent)',
         }}
           src={'/image/profile.png'}
+          alt="profile"
         />
       </div>
       <div id="section2" className="relative w-screen min-h-screen sm:w-2/3 flex flex-col items-center justify-center px-4 sm:px-0">
