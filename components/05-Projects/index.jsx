@@ -65,19 +65,22 @@ const Projects = () => {
       </div>
 
       {/* Imagen */}
-      <div className="imageProfile md:w-[35%] w-full h-64 md:h-auto flex items-center justify-center">
-        <AnimatePresence mode="wait">
-          <motion.img
-            key={index}
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.95 }}
-            transition={{ duration: 0.4 }}
+      <div 
+        className="imageProfile md:w-[35%] w-full h-64 md:h-auto flex items-center justify-center"
+        style={{
+          WebkitMaskImage: "linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)",
+          maskImage: "linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)",
+          WebkitMaskRepeat: "no-repeat",
+          maskRepeat: "no-repeat",
+          WebkitMaskSize: "100% 100%",
+          maskSize: "100% 100%"
+        }}
+      >
+        <img
             src="/image/profile.png"
-            alt={slides[index].title}
-            className="w-full h-full object-cover rounded-lg"
+            alt={'profile'}
+            className="w-full h-full object-cover rounded-lg xl:self-end xl:h-[80%]"          
           />
-        </AnimatePresence>
       </div>
 
       {/* Paginación */}

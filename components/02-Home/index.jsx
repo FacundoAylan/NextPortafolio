@@ -44,7 +44,7 @@ export default function HomeCard() {
 
   return (
     <div className="home w-full h-full flex flex-col gap-4 sm:flex-row sm:justify-between sm:gap-0 overflow-hidden">
-      <div className='imageProfile w-screen sm:w-1/3 sm:h-full sm:flex'>
+      <div className='imageProfile w-full sm:w-1/3 sm:h-screen sm:flex '>
         <img
         style={{
           maskImage: 'linear-gradient(black 80%, transparent)',
