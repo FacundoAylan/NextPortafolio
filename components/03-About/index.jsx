@@ -11,7 +11,6 @@ import {
 
 const InterestCard = ({ name, icon }) => (
   <div className="relative backdrop-blur-sm w-24 h-20 md:w-28 md:h-24 border-2 border-[#a87dcc] rounded-xl p-2 flex flex-col items-center justify-center transition-transform duration-500 ease-out hover:scale-110 hover:shadow-[0_0_20px_6px_rgba(168,125,204,0.6)] hover:bg-gradient-to-br hover:from-[#2c1b47] hover:to-[#a87dcc]">
-
     {/* Fondo decorativo animado */}
     <div className="absolute inset-0 rounded-xl -z-10 bg-gradient-to-br from-[#1a1a1a] to-[#2e2e2e] group-hover:animate-pulse" />
 
@@ -21,8 +20,6 @@ const InterestCard = ({ name, icon }) => (
     </p>
   </div>
 );
-
-
 
 export default function About() {
   return (
@@ -51,10 +48,11 @@ export default function About() {
           a nuevas oportunidades y colaboraciones, así que no dudes en ponerte
           en contacto conmigo.
         </p>
-        <div className="w-full md:flex flex-col flex-row lg:justify-between mt-6 md:mt-24">
+        <div className="w-full flex flex-col lg:flex-row lg:justify-between mt-6 md:mt-24 px-4">
+          {/* Datos personales */}
           <div
             id="datos1"
-            className="w-full hidden md:block md:w-1/2 text-white text-lg tracking-wider 2xl:text-3xl font-mono"
+            className="w-full md:w-1/2 text-white text-lg tracking-wider font-mono mb-6 lg:mb-0"
           >
             <h3 className="about font-black text-[#a87dcc] text-3xl text-center md:text-start 2xl:text-5xl">
               Datos personales
@@ -64,7 +62,7 @@ export default function About() {
               20/02/2000
             </h4>
             <h4>
-              <span className="font-orbitron text-[#a87dcc]">Telefono: </span>
+              <span className="font-orbitron text-[#a87dcc]">Teléfono: </span>
               1136747801
             </h4>
             <h4>
@@ -73,11 +71,12 @@ export default function About() {
             </h4>
           </div>
 
-          <div id="datos2" className="w-full md:w-1/2 h-1/4">
+          {/* Intereses */}
+          <div id="datos2" className="w-full md:w-1/2">
             <h3 className="about text-center font-black text-3xl text-[#a87dcc] 2xl:text-5xl">
               Intereses
             </h3>
-            <div className="flex w-full flex-wrap justify-center h-full gap-8 mt-4">
+            <div className="flex flex-wrap justify-center gap-4 mt-4">
               <InterestCard
                 name="Electrónica"
                 icon={<FaMicrochip size={30} />}
