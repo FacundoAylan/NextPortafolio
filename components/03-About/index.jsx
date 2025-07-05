@@ -52,7 +52,7 @@ export default function About() {
           {/* Datos personales */}
           <div
             id="datos1"
-            className="w-full hidden md: block md:w-1/2 text-white text-lg tracking-wider font-mono mb-6 lg:mb-0"
+            className="w-full hidden md:block md:w-1/2 text-white text-lg tracking-wider font-mono mb-6 lg:mb-0"
           >
             <h3 className="about font-black text-[#a87dcc] text-3xl text-center md:text-start 2xl:text-5xl">
               Datos personales
