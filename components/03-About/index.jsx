@@ -33,7 +33,7 @@ export default function About() {
       <div className="w-full h-4/5 flex flex-col gap-4">
         <p
           id="text"
-          className="h-1/5 text-white text-base md:text-xl font-bold font-orbitron md:tracking-wider 2xl:text-3xl"
+          className="h-auto md:h-1/5 text-white text-base md:text-xl font-bold font-orbitron md:tracking-wider 2xl:text-3xl"
         >
           ¡Hola! Soy <span className="font-bold text-[#a87dcc]">Facundo</span>,
           estudiante de{" "}
