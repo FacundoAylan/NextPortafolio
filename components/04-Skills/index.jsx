@@ -23,7 +23,7 @@ const SkillCard = ({ name, icon }) => (
 export default function Skill() {
   return (
     <div className="skills w-full h-full flex flex-col items-center justify-center overflow-y-scroll"> 
-      <div className="w-full mt-48 xl:mt-4">
+      <div className="w-full mt-[400px] md:mt-48 xl:mt-4">
         <h1 className="text-center text-3xl font-black text-[#a87dcc] mt-4 lg:text-5xl ">Front End</h1>
         <div className="w-full flex gap-4 flex-wrap justify-center mt-6">
           <SkillCard name='CSS' icon={<FaCss3Alt size={30} />} />

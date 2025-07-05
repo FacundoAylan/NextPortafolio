@@ -66,7 +66,7 @@ const Projects = () => {
 
       {/* Imagen */}
       <div 
-        className="imageProfile md:w-[35%] w-full h-64 md:h-auto flex items-center justify-center"
+        className="imageProfile hidden md:w-[35%] w-full h-64 md:h-auto md:flex items-center justify-center"
         style={{
           WebkitMaskImage: "linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)",
           maskImage: "linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)",
@@ -84,7 +84,7 @@ const Projects = () => {
       </div>
 
       {/* Paginación */}
-      <div className="fixed bottom-1 left-1/2 transform -translate-x-1/2 z-50 flex justify-center items-center gap-8 bg-[#181818] px-6 py-3 rounded-full shadow-md border border-[#a87dcc] backdrop-blur-sm">
+      <div className="w-full md:w-auto fixed bottom-1 left-1/2 transform -translate-x-1/2 z-50 flex justify-center items-center gap-8 bg-[#181818] px-6 py-3 rounded-full shadow-md border border-[#a87dcc] backdrop-blur-sm">
         <button
           onClick={() =>
             setIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1))

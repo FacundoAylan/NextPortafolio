@@ -1,9 +1,9 @@
-'use client'
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 import Link from "next/link";
-import './styles.css';
-import { scriptAnimation } from '@/app/script';
-import { FaGithub, FaLinkedin, FaFilePdf, FaEnvelope } from 'react-icons/fa';
+import "./styles.css";
+import { scriptAnimation } from "@/app/script";
+import { FaGithub, FaLinkedin, FaFilePdf, FaEnvelope } from "react-icons/fa";
 
 const LinkCard = ({ href, icon, text, download = false }) => (
   <Link
@@ -26,34 +26,39 @@ const LinkCard = ({ href, icon, text, download = false }) => (
   </Link>
 );
 
-
 export default function HomeCard() {
-  const email = 'facundoaylan3@gmail.com';
-  const subject = 'vi tu portafilio y me gustaria comunicarme contigo';
-  const body = 'Hola, Facundo';
+  const email = "facundoaylan3@gmail.com";
+  const subject = "vi tu portafilio y me gustaria comunicarme contigo";
+  const body = "Hola, Facundo";
 
-  const mailtoLink = `https://mail.google.com/mail/?view=cm&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailtoLink = `https://mail.google.com/mail/?view=cm&to=${email}&su=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
 
   useEffect(() => {
     const animation = async () => {
-      await scriptAnimation('section1', 'animation 1s forwards');
-      await scriptAnimation('section2', 'animation2 1s forwards');
-    }
-    animation()
+      await scriptAnimation("section1", "animation 1s forwards");
+      await scriptAnimation("section2", "animation2 1s forwards");
+    };
+    animation();
   }, []);
 
   return (
     <div className="home w-full h-full flex flex-col gap-4 sm:flex-row sm:justify-between sm:gap-0 overflow-hidden">
-      <div className='imageProfile w-full sm:w-1/3 sm:h-screen sm:flex '>
+      <div className="imageProfile w-full sm:w-1/3 h-1/2 sm:h-screen sm:flex p-6">
         <img
-        style={{
-          maskImage: 'linear-gradient(black 80%, transparent)',
-        }}
-          src={'/image/profile.png'}
+          style={{
+            maskImage: "linear-gradient(to bottom, black 95%, transparent)",
+          }}
+          src={"/image/profile.png"}
           alt="profile"
+          className="rounded-full w-full h-full md:rounded-none"
         />
       </div>
-      <div id="section2" className="relative w-screen min-h-screen sm:w-2/3 flex flex-col items-center justify-center px-4 sm:px-0">
+      <div
+        id="section2"
+        className=" w-screen min-h-screen sm:w-2/3 flex flex-col md:items-center md:justify-center px-4 sm:px-0"
+      >
         <h1 className="border-neon text-3xl sm:text-4xl lg:text-6xl font-black uppercase text-center text-white/90">
           Full Stack Developer
         </h1>
@@ -64,30 +69,36 @@ export default function HomeCard() {
           Buenos Aires (CABA)
         </h3>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 w-full max-w-md text-[#a87dcc] font-mono gap-4">
+        <div className="grid grid-cols-4 w-full max-w-md text-[#a87dcc] font-mono gap-4 items-center">
           <LinkCard
             href="https://github.com/FacundoAylan"
-            icon={<FaGithub size={40} color="#fff" />}
+            icon={<FaGithub className="w-8 h-8 sm:w-10 sm:h-10" color="#fff" />}
             text="GitHub"
           />
           <LinkCard
             href="https://www.linkedin.com/in/facundo-aylan-582b52257/"
-            icon={<FaLinkedin size={40} color="#0A66C2" />}
+            icon={
+              <FaLinkedin className="w-8 h-8 sm:w-10 sm:h-10" color="#0A66C2" />
+            }
             text="LinkedIn"
           />
           <LinkCard
             href="/FacundoAylan.pdf"
-            icon={<FaFilePdf size={40} color="#FF0000" />}
+            icon={
+              <FaFilePdf className="w-8 h-8 sm:w-10 sm:h-10" color="#FF0000" />
+            }
             text="CV"
             download
           />
           <LinkCard
             href={mailtoLink}
-            icon={<FaEnvelope size={40} color="#EA4335" />}
+            icon={
+              <FaEnvelope className="w-8 h-8 sm:w-10 sm:h-10" color="#EA4335" />
+            }
             text="Email"
           />
         </div>
       </div>
     </div>
-  )
+  );
 }
