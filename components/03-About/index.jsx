@@ -51,10 +51,10 @@ export default function About() {
           a nuevas oportunidades y colaboraciones, así que no dudes en ponerte
           en contacto conmigo.
         </p>
-        <div className="w-full md:flex flex-col hidden md:flex-row lg:justify-between mt-6 md:mt-24">
+        <div className="w-full md:flex flex-col flex-row lg:justify-between mt-6 md:mt-24">
           <div
             id="datos1"
-            className="w-full md:w-1/2 text-white text-lg tracking-wider 2xl:text-3xl font-mono"
+            className="w-full hidden md:block md:w-1/2 text-white text-lg tracking-wider 2xl:text-3xl font-mono"
           >
             <h3 className="about font-black text-[#a87dcc] text-3xl text-center md:text-start 2xl:text-5xl">
               Datos personales
