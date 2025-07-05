@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <div className="w-full h-[98%] xl:h-full flex flex-col md:flex-row overflow-hidden bg-white/5 backdrop-blur-sm">
       {/* Descripción */}
-      <div className="md:w-[60%] w-full px-6 py-2 flex flex-col gap-2 justify-center">
+      <div className="h-full md:w-[60%] w-full px-6 py-2 flex flex-col gap-2 justify-center">
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
