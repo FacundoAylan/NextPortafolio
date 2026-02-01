@@ -1,0 +1,36 @@
+.title{
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
+.nameTitle {
+  font-family: name;
+}
+
+.progressbar{
+  width: 0%;
+  height: 100%;
+  box-shadow: 0 0 15px #6304b1;
+  background: #8142b4;
+  animation: resize auto linear forwards;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes resize {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+.fondo{
+  box-shadow: 2px 2px 2px #a87dcc;
+  animation: animationButton .4s forwards;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+@keyframes animationButton {
+  from{
+    background-color: transparent;
+  }to{
+    background-color: #6c2f9e;
+  }
+}

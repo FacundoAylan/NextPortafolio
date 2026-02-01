@@ -1,11 +1,12 @@
 "use client";
-import NavBar from "@/components/01-Navbar";
-import HomeCard from "@/components/02-Home";
-import About from "@/components/03-About";
-import Skill from "@/components/04-Skills";
-import Proyect from "@/components/05-Projects";
-import Titles from "@/components/06-Title";
+import NavBar from "@/app/PagePublic/01-Navbar";
+import HomeCard from "@/app/PagePublic/02-Home";
+import About from "@/app/PagePublic/03-About";
+import Skill from "@/app/PagePublic/04-Skills";
+import Proyect from "@/app/PagePublic/05-Projects";
+import Titles from "@/app/PagePublic/06-Title";
 import { useState } from "react";
+import "./globals.css";
 
 export default function Home() {
   const [face, setFace] = useState(0);
@@ -28,6 +29,7 @@ export default function Home() {
 
   return (
     <main className="w-full h-screen">
+
       <header className="w-full h-16 fixed z-[100]">
         <NavBar setFace={handleSetFace} />
       </header>
