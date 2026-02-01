@@ -6,8 +6,8 @@ const SectionSkills =({title, skills})=>{
         <div 
             className="w-full md:w-1/2 
             backdrop-blur-sm bg-white/5
-            mt-[200px] md:mt-48 xl:mt-1
-            border-2 border-gray-700 rounded-3xl
+            md:mt-48 xl:mt-1
+            md:border-2 border-gray-700 md:rounded-3xl
             hover:border-[#a87dcc]"
         >
             <h1 
@@ -16,7 +16,10 @@ const SectionSkills =({title, skills})=>{
                 {title}
             </h1>
 
-            <div className="w-full flex gap-4 flex-wrap justify-center items-center mt-6">
+            <div 
+            className="w-full 
+            flex gap-2 md:gap-4 flex-wrap justify-center items-center mt-6"
+            >
                 {skills.map((skill, index)=>(
                     <SkillCard 
                         key={index}

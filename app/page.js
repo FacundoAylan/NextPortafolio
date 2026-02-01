@@ -1,8 +1,8 @@
 "use client";
-import NavBar from "@/app/PagePublic/01-Navbar";
-import HomeCard from "@/app/PagePublic/02-Home";
-import About from "@/app/PagePublic/03-About";
-import Skill from "@/app/PagePublic/04-Skills";
+import NavBar from "@/app/PagePublic/01-NavBar/NavBar";
+import HomeCard from "@/app/PagePublic/02-Home/Home";
+import About from "@/app/PagePublic/03-About/About";
+import Skill from "@/app/PagePublic/04-Skills/Skills";
 import Proyect from "@/app/PagePublic/05-Projects";
 import Titles from "@/app/PagePublic/06-Title";
 import { useState } from "react";

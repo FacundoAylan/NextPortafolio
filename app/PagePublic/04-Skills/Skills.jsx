@@ -11,7 +11,10 @@ export default function Skill() {
     ];
 
     return (
-        <div className="w-full h-full flex gap-6 mt-2 overflow-y-scroll py-6 px-2">
+        <div 
+        className="w-full h-full 
+        md:flex md:gap-6 overflow-y-scroll md:py-6 px-2 md:mt-2"
+        >
           {skillSections.map((section, index) => (
             <SectionSkills 
               key={index}
