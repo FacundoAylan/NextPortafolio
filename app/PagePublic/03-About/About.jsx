@@ -36,7 +36,7 @@ const About = ()=> {
                     ¡Hola! Soy <span className="font-bold text-[#a87dcc]">Facundo</span>,
                     estudiante de{" "}
                     <span className="font-bold text-[#a87dcc]">
-                        Analista en Sistemas en la UBA y Full Stack Developer
+                        Tecnicatura en programación en la UTN y Full Stack Developer
                     </span>
                     . Me apasiona el diseño web y me encanta aprender nuevas tecnologías.
                     Además, tengo un gran interés en la electrónica y la reparación de
