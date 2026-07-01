@@ -1,21 +1,10 @@
 "use client";
-import { useEffect } from "react";
 import "./styles.css";
-import { scriptAnimation } from "@/app/script";
 import { FaGithub, FaLinkedin, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import LinkCard from "./components/LinkCard";
 import mailtoLink from "./utils/sendEmail";
 
-
 export default function HomeCard() {
-
-  useEffect(() => {
-    const animation = async () => {
-      await scriptAnimation("section1", "animation 1s forwards");
-      await scriptAnimation("section2", "animation2 1s forwards");
-    };
-    animation();
-  }, []);
 
   return (
     <div 

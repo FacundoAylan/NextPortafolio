@@ -1,9 +1,3 @@
-#section1 {
-  transform: scale(0);
-  animation: none;
-  opacity: 0;
-}
-
 .imageProfile {
   filter: drop-shadow(10px 2px 20px #a87dcc);
   overflow: visible;
