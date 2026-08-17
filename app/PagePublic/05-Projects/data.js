@@ -15,6 +15,28 @@ const typescript = "/image/skillsImage/typescript.webp";
 
 export const slides = [
   {
+  title: "StockBar",
+  subtitle: "FullStack",
+  icons: [
+  { name: "React", icon: react },
+  { name: "TypeScript", icon: typescript },
+  ],
+  video: "https://player.vimeo.com/video/1219051820?h=785077b102",
+  description: `Aplicación web desarrollada para automatizar el procesamiento y análisis de inventarios a partir de archivos CSV.
+
+  📄 Carga y procesamiento de archivos CSV.
+  📊 Visualización y análisis de datos de inventario.
+  🔎 Filtros para facilitar la búsqueda y análisis de productos.
+  ✏️ Edición de cantidades y datos directamente desde la aplicación.
+  🔄 Conversión y modificación de unidades de medida.
+  🗑️ Eliminación y gestión de productos del inventario.
+  📑 Generación de reportes en PDF.
+  📧 Generación de reportes preparados para copiar y enviar por Gmail.
+  ⚡ Interfaz rápida e intuitiva para agilizar las tareas de control de stock.
+
+  🧩 Stack: React, TypeScript, Tailwind CSS, Zustand y procesamiento de archivos CSV.`,
+  },
+  {
     title: "Invoice OCR",
     subtitle: "FullStack",
     icons: [
@@ -85,24 +107,6 @@ export const slides = [
     `,
   },
   {
-    title: "Cursort",
-    subtitle: "FullStack",
-    icons: [
-      { name: "React", icon: react },
-      { name: "Redux", icon: redux },
-      { name: "Node js", icon: node },
-      { name: "PostgresSQL", icon: postgres },
-    ],
-    video:
-      "https://player.vimeo.com/video/791658238?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    description: `Cursort es una plataforma e-commerce para la venta de clases de programación, desarrollada como proyecto final FullStack.
-      Utiliza React y Redux en el frontend para una navegación fluida y gestión eficiente del estado.
-      El backend está construido con Node.js y una base de datos PostgresSQL, asegurando escalabilidad y estabilidad.
-      Diseñé e implementé tanto la parte visual como la lógica del negocio, integrando funcionalidades clave de compra y gestión.
-      Este proyecto refleja mi capacidad para construir soluciones completas y robustas, desde la interfaz hasta la base de datos.
-    `,
-  },
-  {
     title: "Weather",
     subtitle: "FrontEnd",
     icons: [
@@ -133,19 +137,5 @@ export const slides = [
       A través de este portafolio demuestro cómo organizo interfaces, aplico buenas prácticas y diseño con intención.
       Es una vitrina funcional que refleja mi evolución como desarrollador y mi enfoque creativo en el desarrollo web.
     `,
-  },
-  {
-    title: "Card model",
-    subtitle: "FontEnd",
-    icons: [
-      { name: "Next js", icon: next },
-      { name: "tailwind css", icon: tailwind },
-    ],
-    video: "https://player.vimeo.com/video/940176559?h=4325dfd2bc",
-    description: `Este proyecto es una tarjeta interactiva diseñada para destacar mis habilidades en diseño FrontEnd.
-      Utilicé Next.js para aprovechar la estructura moderna y dinámica del framework.
-      La estilización fue realizada con Tailwind CSS, logrando un diseño responsivo y elegante.
-      Cada elemento dentro de la tarjeta está pensado para resaltar la estética y accesibilidad del contenido.
-      Incluye animaciones suaves al pasar el cursor, aportando una experiencia visual atractiva.`,
   },
 ];
