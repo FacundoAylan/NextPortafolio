@@ -15,7 +15,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <div className="w-full flex-1 min-h-0 flex flex-col justify-start md:justify-center items-center px-4 py-6 mt-[200px] md:mt-0 md:px-8 overflow-y-auto md:overflow-hidden z-10">
+    <div className="w-full flex-1 min-h-0 flex flex-col justify-start md:justify-center items-center px-4 py-6 mt-[400px] md:mt-0 md:px-8 overflow-y-auto md:overflow-hidden z-10">
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-4 sm:gap-6 items-stretch justify-center my-auto">
         {skillSections.map((section) => (
           <div
