@@ -40,20 +40,16 @@ Sigue estos pasos para clonar e iniciar el proyecto en tu máquina local:
 
 ```bash
 # 1. Clonar el repositorio
-git clone [https://github.com/FacundoAylan/NextPortafolio.git](https://github.com/FacundoAylan/NextPortafolio.git)
+git clone 'https://github.com/FacundoAylan/NextPortafolio.git'
 
 # 2. Entrar al directorio
 cd NextPortafolio
 
 # 3. Instalar dependencias (elegir un gestor)
 pnpm install
-# ó
-npm install
 
 # 4. Iniciar servidor de desarrollo
 pnpm dev
-# ó
-npm run dev
 ```
 
 📬 Contacto & Redes
