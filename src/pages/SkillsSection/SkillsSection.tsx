@@ -16,7 +16,7 @@ const SkillsSection = () => {
 
   return (
     <div className="w-full h-[calc(100vh-5rem)] flex flex-col justify-start md:justify-center items-center px-4 py-6 md:mt-0 md:px-8 overflow-y-auto md:overflow-hidden z-10">
-      <div className="w-full max-w-6xl flex flex-col md:flex-row gap-4 sm:gap-6 items-stretch justify-center my-auto">
+      <div className="w-full max-w-6xl 2xl:max-w-[95%] flex flex-col md:flex-row gap-4 sm:gap-6 2xl:gap-8 items-stretch justify-center my-auto">
         {skillSections.map((section) => (
           <div
             key={section.title}
