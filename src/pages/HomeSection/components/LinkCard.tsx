@@ -16,7 +16,7 @@ const LinkCard = ({ href, icon, text, download = false }: LinkCardProps) => {
       target={isExternal ? "_blank" : undefined}
       rel={isExternal ? "noopener noreferrer" : undefined}
       download={download ? true : undefined}
-      className="group relative w-[80%] md:w-full h-full flex flex-col items-center justify-center p-3 sm:p-4 2xl:p-6 min-[2500px]:p-8 rounded-2xl 2xl:rounded-3xl border border-white/10 bg-slate-900/40 backdrop-blur-md shadow-sm overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:bg-slate-800/50 hover:border-[#a87dcc]/40 hover:shadow-md"
+      className="group relative w-[80%] md:w-full h-full flex flex-col items-center justify-center p-3 sm:p-4 min-[2500px]:p-8 rounded-2xl 2xl:rounded-3xl border border-white/10 bg-slate-900/40 backdrop-blur-md shadow-sm overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:bg-slate-800/50 hover:border-[#a87dcc]/40 hover:shadow-md"
     >
       {/* Destello de luz mate al pasar el cursor (Shimmer discreto) */}
       <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
