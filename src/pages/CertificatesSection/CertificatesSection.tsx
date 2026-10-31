@@ -2,7 +2,7 @@ import { FaGraduationCap, FaAward } from "react-icons/fa";
 
 const CertificatesSection = () => {
   return (
-    <div className="w-full h-[calc(100vh-5rem)] flex flex-col justify-between py-4 px-4 sm:px-8 overflow-hidden">
+    <div className="w-full h-[calc(100vh-4rem)] flex flex-col justify-between py-4 px-4 sm:px-8 overflow-hidden">
       <div className="w-full max-w-6xl mx-auto h-full flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Título Principal */}
         <h1 className="about text-2xl md:text-4xl font-black text-[#a87dcc] uppercase font-orbitron tracking-wider text-center drop-shadow-[0_0_12px_rgba(168,125,204,0.4)] shrink-0">
