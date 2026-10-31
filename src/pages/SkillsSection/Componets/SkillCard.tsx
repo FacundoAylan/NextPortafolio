@@ -19,7 +19,7 @@ export const SkillCard = ({ name, icon, status }: SkillCardProps) => {
     >
       {/* Badge opcional en tamaño ajustado */}
       {status && (
-        <span className="absolute -top-2 z-10 px-1.5 py-0.2 text-[8px] font-mono font-semibold bg-[#a87dcc] text-slate-950 rounded-full shadow-sm border border-purple-300 whitespace-nowrap">
+        <span className="absolute -top-2 z-10 px-1.5 py-0.2 text-[8px] 2xl:text-[12px] font-mono font-semibold bg-[#a87dcc] text-slate-950 rounded-full shadow-sm border border-purple-300 whitespace-nowrap">
           {status}
         </span>
       )}
