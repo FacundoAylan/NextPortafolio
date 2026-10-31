@@ -19,7 +19,7 @@ export const SectionSkills = ({ title, skills }: SectionSkillsProps) => {
       className="
         w-full 
         backdrop-blur-md bg-white/5
-        border border-white/10 rounded-2xl p-5 2xl:p-16 shadow-xl
+        border border-white/10 rounded-2xl p-5 shadow-xl
         transition-all duration-300 ease-out 
         hover:border-[#a87dcc]/40 hover:shadow-2xl"
     >
