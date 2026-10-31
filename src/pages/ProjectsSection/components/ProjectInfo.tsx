@@ -11,7 +11,7 @@ const ProjectInfo = ({
   currentIndex,
 }: ProjectInfoProps) => {
   return (
-    <div className="w-full md:w-[48%] flex flex-col justify-center">
+    <div className="w-full md:w-[48%] 2xl:max-w-none flex flex-col justify-center">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
@@ -23,10 +23,10 @@ const ProjectInfo = ({
         >
           {/* Subtítulo y Título */}
           <div>
-            <span className="text-[10px] md:text-xs font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block mb-1.5">
+            <span className="text-[10px] md:text-xs 2xl:text-3xl font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block mb-1.5">
               {currentSlide.subtitle}
             </span>
-            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black font-orbitron text-white tracking-wide">
+            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-8xl font-black font-orbitron text-white tracking-wide">
               {currentSlide.title}
             </h1>
           </div>
@@ -40,10 +40,10 @@ const ProjectInfo = ({
               return (
                 <div
                   key={i}
-                  className="bg-slate-900/80 text-white/90 px-2.5 py-1 rounded-xl text-[11px] md:text-xs font-mono font-semibold flex items-center gap-1.5 border border-white/10 shadow-sm transition-all duration-300 hover:border-[#a87dcc]/50 group"
+                  className="bg-slate-900/80 text-white/90 px-2.5 py-1 rounded-xl text-[11px] md:text-xs 2xl:text-2xl font-mono font-semibold flex items-center gap-1.5 border border-white/10 shadow-sm transition-all duration-300 hover:border-[#a87dcc]/50 group"
                 >
                   <IconComponent
-                    className={`text-sm md:text-base ${item.color || "text-[#a87dcc]"} transition-transform duration-200 group-hover:scale-110`}
+                    className={`text-sm md:text-base 2xl:text-3xl ${item.color || "text-[#a87dcc]"} transition-transform duration-200 group-hover:scale-110`}
                   />
                   <span>{item.name}</span>
                 </div>
@@ -52,7 +52,7 @@ const ProjectInfo = ({
           </div>
 
           {/* Descripción */}
-          <div className="w-full h-[130px] sm:h-[160px] md:h-[200px] border border-white/10 rounded-2xl p-3 md:p-4 bg-slate-950/40 backdrop-blur-md shadow-xl overflow-y-auto leading-relaxed text-white/80 text-xs sm:text-sm md:text-base space-y-2">
+          <div className="w-full h-[130px] sm:h-[160px] md:h-[200px] 2xl:h-[400px] border border-white/10 rounded-2xl p-3 md:p-4 bg-slate-950/40 backdrop-blur-md shadow-xl overflow-y-auto leading-relaxed text-white/80 text-xs sm:text-sm md:text-base 2xl:text-2xl space-y-2">
             {currentSlide.description.split("\n").map((line, i) => (
               <p key={i}>{line}</p>
             ))}
