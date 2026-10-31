@@ -25,8 +25,18 @@ const HomeIntroSplash = ({ showContent }: { showContent: boolean }) => {
         <span className="text-[#a87dcc] font-medium">Node.js</span>
       </p>
 
-      <div className="w-24 sm:w-36 h-1 rounded-full bg-[#a87dcc] mt-2 shadow-[0_0_15px_rgba(168,125,204,0.8)] animate-pulse" />
+    <div className="flex items-center justify-center gap-2 mt-4">
+      {/* Cuadrado 1 */}
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce [animation-delay:-0.3s]" />
+      
+      {/* Cuadrado 2 */}
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce [animation-delay:-0.15s]" />
+      
+      {/* Cuadrado 3 */}
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce" />
     </div>
+
+  </div>
   );
 };
 
