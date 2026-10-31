@@ -52,7 +52,7 @@ const ProjectInfo = ({
           </div>
 
           {/* Descripción */}
-          <div className="w-full h-[130px] sm:h-[160px] md:h-[200px] 2xl:h-[400px] border border-white/10 rounded-2xl p-3 md:p-4 bg-slate-950/40 backdrop-blur-md shadow-xl overflow-y-auto leading-relaxed text-white/80 text-xs sm:text-sm md:text-base 2xl:text-2xl space-y-2">
+          <div className=" w-full h-[130px] sm:h-[160px] md:h-[200px] 2xl:h-[400px] border border-white/10 rounded-2xl p-3 md:p-4 2xl:p-6 bg-slate-950/40 backdrop-blur-md shadow-xl overflow-y-auto leading-relaxed text-white/80 text-xs sm:text-sm md:text-base 2xl:text-2xl space-y-2">
             {currentSlide.description.split("\n").map((line, i) => (
               <p key={i}>{line}</p>
             ))}

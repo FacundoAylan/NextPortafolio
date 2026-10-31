@@ -34,7 +34,7 @@ export const ProjectsSection = () => {
   return (
     <div className="relative w-full h-[calc(100vh-4rem)] flex flex-col md:justify-between overflow-y-auto md:overflow-hidden border border-white/10 shadow-2xl px-4 md:px-12 pt-6 md:pt-10 pb-6">
       {/* Sección Superior: Contenido + Video */}
-      <div className="w-full flex flex-col md:flex-1 md:flex-row items-center md:items-center md:justify-between gap-6 z-10">
+      <div className="w-full flex flex-col md:flex-1 md:flex-row items-center md:items-center md:justify-between gap-6 2xl:gap-0 z-10">
         <ProjectInfo currentSlide={currentSlide} currentIndex={index} />
         <ProjectVideoPreview
           currentSlide={currentSlide}
