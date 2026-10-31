@@ -23,10 +23,10 @@ const ProjectInfo = ({
         >
           {/* Subtítulo y Título */}
           <div>
-            <span className="text-[10px] md:text-xs 2xl:text-3xl font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block mb-1.5">
+            <span className="text-[10px] md:text-xs 2xl:text-2xl font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block mb-1.5">
               {currentSlide.subtitle}
             </span>
-            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-8xl font-black font-orbitron text-white tracking-wide">
+            <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-black font-orbitron text-white tracking-wide">
               {currentSlide.title}
             </h1>
           </div>
@@ -40,10 +40,10 @@ const ProjectInfo = ({
               return (
                 <div
                   key={i}
-                  className="bg-slate-900/80 text-white/90 px-2.5 py-1 rounded-xl text-[11px] md:text-xs 2xl:text-2xl font-mono font-semibold flex items-center gap-1.5 border border-white/10 shadow-sm transition-all duration-300 hover:border-[#a87dcc]/50 group"
+                  className="bg-slate-900/80 text-white/90 px-2.5 py-1 rounded-xl text-[11px] md:text-xs 2xl:text-xl font-mono font-semibold flex items-center gap-1.5 border border-white/10 shadow-sm transition-all duration-300 hover:border-[#a87dcc]/50 group"
                 >
                   <IconComponent
-                    className={`text-sm md:text-base 2xl:text-3xl ${item.color || "text-[#a87dcc]"} transition-transform duration-200 group-hover:scale-110`}
+                    className={`text-sm md:text-base 2xl:text-2xl ${item.color || "text-[#a87dcc]"} transition-transform duration-200 group-hover:scale-110`}
                   />
                   <span>{item.name}</span>
                 </div>

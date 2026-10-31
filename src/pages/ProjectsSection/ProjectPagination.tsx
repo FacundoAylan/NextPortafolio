@@ -22,10 +22,10 @@ const ProjectPagination = ({
           className="p-1 rounded-full text-[#a87dcc] hover:text-white hover:bg-white/10 transition-all duration-200 active:scale-90 shrink-0"
           aria-label="Anterior"
         >
-          <HiChevronLeft className="text-xl sm:text-2xl 2xl:text-6xl" />
+          <HiChevronLeft className="text-xl sm:text-2xl 2xl:text-4xl" />
         </button>
 
-        <span className="text-xs 2xl:text-3xl font-mono font-bold text-white tracking-widest px-1 whitespace-nowrap select-none">
+        <span className="text-xs 2xl:text-2xl font-mono font-bold text-white tracking-widest px-1 whitespace-nowrap select-none">
           <span className="text-[#a87dcc]">{currentIndex + 1}</span> /{" "}
           {totalSlides}
         </span>
@@ -36,7 +36,7 @@ const ProjectPagination = ({
           className="p-1 rounded-full text-[#a87dcc] hover:text-white hover:bg-white/10 transition-all duration-200 active:scale-90 shrink-0"
           aria-label="Siguiente"
         >
-          <HiChevronRight className="text-xl sm:text-2xl 2xl:text-6xl" />
+          <HiChevronRight className="text-xl sm:text-2xl 2xl:text-4xl" />
         </button>
       </div>
     </div>

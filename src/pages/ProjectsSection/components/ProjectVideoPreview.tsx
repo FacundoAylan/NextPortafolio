@@ -14,7 +14,7 @@ const ProjectVideoPreview = ({
     <div className=" w-full md:w-[48%] 2xl:w-[80%] flex justify-center md:justify-end  items-center md:items-end z-10">
       <div
         onClick={onOpenModal}
-        className="md:mt-6 relative w-full max-w-[500px] md:h-[320px] 2xl:max-w-[70%] 2xl:h-[700px] aspect-[4/3] rounded-2xl overflow-hidden border border-white/15 shadow-2xl bg-slate-950 group cursor-pointer transition-all duration-300 hover:border-[#a87dcc]/40 hover:shadow-[#a87dcc]/10"
+        className="md:mt-6 relative w-full max-w-[500px] md:h-[320px] 2xl:max-w-[70%] 2xl:h-[500px] aspect-[4/3] rounded-2xl overflow-hidden border border-white/15 shadow-2xl bg-slate-950 group cursor-pointer transition-all duration-300 hover:border-[#a87dcc]/40 hover:shadow-[#a87dcc]/10"
       >
         <iframe
           key={currentSlide.video}
