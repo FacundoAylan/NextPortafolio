@@ -35,8 +35,7 @@ const HomeSection = () => {
       {/* Contenedor Principal */}
       <div
         ref={ref}
-        className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12"
-      >
+        className="w-full 2xl:max-w-none 2xl:w-full 2xl:h-[calc(100vh-4rem)] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12"      >
         <ProfileCard isReady={isReady} />
         <ProfileInfo isReady={isReady} />
       </div>

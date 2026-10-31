@@ -16,18 +16,18 @@ const LinkCard = ({ href, icon, text, download = false }: LinkCardProps) => {
       target={isExternal ? "_blank" : undefined}
       rel={isExternal ? "noopener noreferrer" : undefined}
       download={download ? true : undefined}
-      className="group relative w-[80%] md:w-full h-full flex flex-col items-center justify-center p-3 sm:p-4 rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur-md shadow-sm overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:bg-slate-800/50 hover:border-[#a87dcc]/40 hover:shadow-md"
+      className="group relative w-[80%] md:w-full h-full flex flex-col items-center justify-center p-3 sm:p-4 2xl:p-6 min-[2500px]:p-8 rounded-2xl 2xl:rounded-3xl border border-white/10 bg-slate-900/40 backdrop-blur-md shadow-sm overflow-hidden transition-all duration-300 ease-out hover:scale-105 hover:bg-slate-800/50 hover:border-[#a87dcc]/40 hover:shadow-md"
     >
       {/* Destello de luz mate al pasar el cursor (Shimmer discreto) */}
       <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
 
-      {/* Ícono sobrio con escala suave */}
-      <div className="text-2xl sm:text-3xl text-white/80 group-hover:text-[#a87dcc] group-hover:scale-110 transition-all duration-300 mb-1.5 z-10 shrink-0">
+      {/* Ícono sobrio con escala suave (más grande en 2xl) */}
+      <div className="text-2xl sm:text-3xl 2xl:text-5xl min-[2500px]:text-6xl text-white/80 group-hover:text-[#a87dcc] group-hover:scale-110 transition-all duration-300 mb-1.5 2xl:mb-3 z-10 shrink-0">
         {icon}
       </div>
 
-      {/* Texto centrado estilizado */}
-      <span className="font-mono text-xs sm:text-sm font-medium text-white/80 group-hover:text-white tracking-wide text-center transition-colors duration-300 z-10">
+      {/* Texto centrado estilizado (más grande en 2xl) */}
+      <span className="font-mono text-xs sm:text-sm 2xl:text-lg min-[2500px]:text-xl font-medium text-white/80 group-hover:text-white tracking-wide text-center transition-colors duration-300 z-10">
         {text}
       </span>
     </a>

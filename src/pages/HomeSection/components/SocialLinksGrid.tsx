@@ -4,8 +4,7 @@ import mailtoLink from "../utils/sendEmail";
 
 const SocialLinksGrid = () => {
   return (
-    <div className="grid grid-cols-4 gap-2 sm:gap-3 w-full max-w-md mt-2 md:mt-4 items-center">
-      <LinkCard
+<div className="grid grid-cols-4 gap-2 sm:gap-3 2xl:gap-6 min-[2500px]:gap-8 w-full max-w-md 2xl:max-w-2xl min-[2500px]:max-w-4xl mt-2 md:mt-4 2xl:mt-8 items-center">      <LinkCard
         href="https://github.com/FacundoAylan"
         icon={<FaGithub className="text-base sm:text-xl shrink-0" />}
         text="GitHub"
