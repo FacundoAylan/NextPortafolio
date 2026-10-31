@@ -12,21 +12,21 @@ const ProfileInfo = ({ isReady }: ProfileInfoProps) => {
       }`}
     >
       {/* Badge */}
-      <span className="text-[10px] sm:text-xs 2xl:text-3xl font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block">
+      <span className="text-[10px] sm:text-xs 2xl:text-2xl font-mono font-bold text-[#a87dcc] uppercase tracking-widest px-3 py-1 bg-[#a87dcc]/10 border border-[#a87dcc]/30 rounded-full inline-block">
         Portfolio Personal
       </span>
 
       {/* Título Principal */}
-      <h1 className="text-2xl sm:text-4xl lg:text-7xl 2xl:text-9xl font-black font-orbitron text-white tracking-wide uppercase drop-shadow-lg">
+      <h1 className="text-2xl sm:text-4xl lg:text-7xl 2xl:text-8xl font-black font-orbitron text-white tracking-wide uppercase drop-shadow-lg">
         Full Stack <span className="text-[#a87dcc]">Developer</span>
       </h1>
 
       {/* Subtítulos */}
       <div className="space-y-0.5">
-        <h2 className="text-xs sm:text-xl 2xl:text-4xl font-semibold text-white/90 tracking-wide">
+        <h2 className="text-xs sm:text-xl 2xl:text-3xl font-semibold text-white/90 tracking-wide">
           Experiencia en React &amp; Node.js
         </h2>
-        <p className="text-[11px] sm:text-base 2xl:text-4xl font-mono text-[#a87dcc]/90">
+        <p className="text-[11px] sm:text-base 2xl:text-3xl font-mono text-[#a87dcc]/90">
           Buenos Aires (CABA)/Argentina
         </p>
       </div>
