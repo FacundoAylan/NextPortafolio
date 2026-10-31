@@ -3,15 +3,15 @@ import { FaGraduationCap, FaAward } from "react-icons/fa";
 const CertificatesSection = () => {
   return (
     <div className="w-full h-[calc(100vh-4rem)] flex flex-col justify-between py-4 px-4 sm:px-8 overflow-hidden">
-      <div className="w-full max-w-6xl mx-auto h-full flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+      <div className="w-full max-w-6xl 2xl:max-w-none mx-auto h-full flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Título Principal */}
         <h1 className="about text-2xl md:text-4xl font-black text-[#a87dcc] uppercase font-orbitron tracking-wider text-center drop-shadow-[0_0_12px_rgba(168,125,204,0.4)] shrink-0">
           Títulos y Certificaciones
         </h1>
 
         {/* Layout Principal: 2 Columnas en Desktop */}
-        <div className="w-full flex-1 min-h-0 flex flex-col md:flex-row gap-4 items-stretch">
-          <div className="w-full md:w-5/12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl transition-all duration-300 hover:border-[#a87dcc]/40 hover:-translate-y-1 flex flex-col justify-between">
+        <div className="w-full flex-1 min-h-0 2xl:w-full 2xl:max-h-[85%] 2xl:mt-8 flex flex-col md:flex-row gap-4 2xl:gap-9 items-stretch">
+          <div className="w-full md:w-5/12 2xl:w-full bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl transition-all duration-300 hover:border-[#a87dcc]/40 hover:-translate-y-1 flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-4 border-b border-[#a87dcc]/20 pb-4 mb-4">
                 {/* Ícono con contenedor dinámico y Glow */}
@@ -59,7 +59,7 @@ const CertificatesSection = () => {
           </div>
 
           {/* Columna Derecha: Imagen Certificado */}
-          <div className="w-full md:w-7/12 min-h-0 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-4 shadow-xl flex flex-col justify-between transition-all duration-300 hover:border-[#a87dcc]/40">
+          <div className="w-full md:w-7/12 2xl:w-[100%] min-h-0 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-4 shadow-xl flex flex-col justify-between transition-all duration-300 hover:border-[#a87dcc]/40">
             <div className="w-full flex items-center gap-2 border-b border-[#a87dcc]/20 pb-3 shrink-0">
               <FaAward className="text-[#a87dcc] text-xl" />
               <h3 className="text-base font-bold font-orbitron text-white">
