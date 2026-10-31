@@ -27,7 +27,7 @@ export const SectionSkills = ({ title, skills }: SectionSkillsProps) => {
         {title}
       </h2>
 
-      <div className=" w-full flex gap-3 md:gap-4 2xl:gap-9 flex-wrap justify-center items-center mt-6">
+      <div className=" w-full flex gap-3 md:gap-4 2xl:gap-6 flex-wrap justify-center items-center mt-6">
         {skills.map((skill) => {
           const IconComponent = skill.icon;
           return (

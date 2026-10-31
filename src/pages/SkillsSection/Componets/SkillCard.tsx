@@ -25,12 +25,12 @@ export const SkillCard = ({ name, icon, status }: SkillCardProps) => {
       )}
 
       {/* Ícono reducido */}
-      <div className="text-2xl md:text-3xl 2xl:text-7xl drop-shadow-sm transition-transform duration-300 group-hover:scale-105">
+      <div className="text-2xl md:text-3xl 2xl:text-6xl drop-shadow-sm transition-transform duration-300 group-hover:scale-105">
         {icon}
       </div>
 
       {/* Texto compacto */}
-      <p className="text-[10px] md:text-xs 2xl:text-lg mt-1 font-bold text-center font-orbitron tracking-wide text-white/90 group-hover:text-white truncate w-full px-0.5">
+      <p className="text-[10px] md:text-xs 2xl:text-md mt-1 font-bold text-center font-orbitron tracking-wide text-white/90 group-hover:text-white truncate w-full px-0.5">
         {name}
       </p>
     </div>
