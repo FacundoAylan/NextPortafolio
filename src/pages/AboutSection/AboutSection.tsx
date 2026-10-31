@@ -13,16 +13,14 @@ const AboutSection = () => {
 
       <div
         ref={ref}
-        className={`w-full flex flex-col gap-6 max-w-6xl 2xl:gap-9 mx-auto z-10 transition-all duration-1000 ease-out ${
+        className={`w-full flex flex-col gap-6 max-w-6xl 2xl:max-w-[80%] 2xl:gap-9 mx-auto z-10 transition-all duration-1000 ease-out ${
           isVisible
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-16 pointer-events-none"
         }`}
       >
-        {/* Card 1: Biografía */}
         <AboutBioCard />
 
-        {/* Sección Datos y Especialidades (juntas) */}
         <div className="w-full flex flex-col lg:flex-row justify-between gap-6">
           <AboutInfoCard />
           <AboutSpecialtiesCard />

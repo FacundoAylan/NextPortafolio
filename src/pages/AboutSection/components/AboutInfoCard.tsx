@@ -8,24 +8,24 @@ const AboutInfoCard = () => {
         Información clave
       </h3>
       <div className="space-y-4">
-        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
+        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 2xl:text-2xl">
           <span className="font-orbitron text-[#a87dcc] min-w-[120px]">Ubicación:</span>
-          <span className="text-white/80 text-base">Buenos Aires (CABA), Argentina</span>
+          <span className="text-white/80 text-base 2xl:text-xl">Buenos Aires (CABA), Argentina</span>
         </h4>
-        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
+        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 2xl:text-2xl">
           <span className="font-orbitron text-[#a87dcc] min-w-[120px]">Teléfono:</span>
           <a
             href="tel:1136747801"
-            className="text-white/80 text-base hover:text-[#a87dcc] transition-colors duration-300 underline underline-offset-4 decoration-transparent hover:decoration-[#a87dcc]"
+            className="text-white/80 text-base 2xl:text-xl hover:text-[#a87dcc] transition-colors duration-300 underline underline-offset-4 decoration-transparent hover:decoration-[#a87dcc]"
           >
             1136747801
           </a>
         </h4>
-        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
+        <h4 className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 2xl:text-2xl">
           <span className="font-orbitron text-[#a87dcc] min-w-[120px]">Correo:</span>
           <a
             href="mailto:facundoaylan3@gmail.com"
-            className="text-white/80 text-base hover:text-[#a87dcc] transition-colors duration-300 underline underline-offset-4 decoration-transparent hover:decoration-[#a87dcc] break-all"
+            className="text-white/80 text-base 2xl:text-xl hover:text-[#a87dcc] transition-colors duration-300 underline underline-offset-4 decoration-transparent hover:decoration-[#a87dcc] break-all"
           >
             facundoaylan3@gmail.com
           </a>

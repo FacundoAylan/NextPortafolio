@@ -11,20 +11,20 @@ const AboutSpecialtiesCard = () => {
       </h3>
       <div className="grid grid-cols-2 gap-3 mt-4">
         <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/5 hover:border-[#a87dcc]/40 transition-all duration-300 group/item">
-          <FaLaptopCode className="text-xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
-          <span className="text-sm font-mono text-white/90">Frontend Dev</span>
+          <FaLaptopCode className="text-xl 2xl:text-2xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
+          <span className="text-sm 2xl:text-lg font-mono text-white/90">Frontend Dev</span>
         </div>
         <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/5 hover:border-[#a87dcc]/40 transition-all duration-300 group/item">
-          <FaServer className="text-xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
-          <span className="text-sm font-mono text-white/90">Backend API</span>
+          <FaServer className="text-xl 2xl:text-2xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
+          <span className="text-sm 2xl:text-lg font-mono text-white/90">Backend API</span>
         </div>
         <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/5 hover:border-[#a87dcc]/40 transition-all duration-300 group/item">
-          <FaDatabase className="text-xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
-          <span className="text-sm font-mono text-white/90">Bases de Datos</span>
+          <FaDatabase className="text-xl 2xl:text-2xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
+          <span className="text-sm 2xl:text-lg font-mono text-white/90">Bases de Datos</span>
         </div>
         <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/5 hover:border-[#a87dcc]/40 transition-all duration-300 group/item">
-          <FaTools className="text-xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
-          <span className="text-sm font-mono text-white/90">Sistemas &amp; HW</span>
+          <FaTools className="text-xl 2xl:text-2xl text-[#a87dcc] group-hover/item:scale-110 transition-transform duration-300 shrink-0" />
+          <span className="text-sm 2xl:text-lg font-mono text-white/90">Sistemas &amp; HW</span>
         </div>
       </div>
     </div>
