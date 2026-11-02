@@ -11,7 +11,7 @@ const ProfileCard = ({ isReady }: ProfileCardProps) => {
           : "opacity-0 -translate-x-20 pointer-events-none"
       }`}
     >
-      <div className="relative w-36 h-36 sm:w-56 sm:h-56 md:w-80 md:h-[380px] 2xl:w-[500px] 2xl:h-[600px] aspect-square md:aspect-auto rounded-full md:rounded-3xl border-2 border-[#a87dcc]/40 shadow-[0_0_30px_rgba(168,125,204,0.25)] transition-transform duration-700 [transform-style:preserve-3d] [.group:hover_&]:[transform:rotateY(180deg)] cursor-pointer">
+      <div className="relative w-36 h-36 sm:w-56 sm:h-56 md:w-80 md:h-[380px] 2xl:w-[500px] 2xl:h-[600px] aspect-square md:aspect-auto rounded-full md:rounded-3xl border-2 border-[#a87dcc]/40 shadow-[0_0_30px_rgba(168,125,204,0.25)] transition-transform duration-700 [transform-style:preserve-3d] md:[.group:hover_&]:[transform:rotateY(180deg)] cursor-pointer">
         {/* Cara Frontal */}
         <div
           className="absolute inset-0 w-full h-full rounded-full md:rounded-3xl overflow-hidden bg-slate-950"
