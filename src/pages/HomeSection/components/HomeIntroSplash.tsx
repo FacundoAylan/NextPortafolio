@@ -25,15 +25,13 @@ const HomeIntroSplash = ({ showContent }: { showContent: boolean }) => {
         <span className="text-[#a87dcc] font-medium">Node.js</span>
       </p>
 
+    //Animation of three bouncing squares
     <div className="flex items-center justify-center gap-2 mt-4">
-      {/* Cuadrado 1 */}
-      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce [animation-delay:-0.3s]" />
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md animate-bounce [animation-delay:-0.3s]" />
       
-      {/* Cuadrado 2 */}
-      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce [animation-delay:-0.15s]" />
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md animate-bounce [animation-delay:-0.15s]" />
       
-      {/* Cuadrado 3 */}
-      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md  animate-bounce" />
+      <div className="w-4 h-4 sm:w-6 sm:h-6 2xl:w-8 2xl:h-8 bg-[#a87dcc] rounded-md animate-bounce" />
     </div>
 
   </div>

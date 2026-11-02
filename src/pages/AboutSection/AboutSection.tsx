@@ -8,7 +8,9 @@ const AboutSection = () => {
 
   return (
     <section className="relative w-full min-h-[calc(100vh-5rem)] flex flex-col justify-center py-8 px-4 sm:px-8 overflow-hidden">
-      
+        <h1 className="p-2 text-2xl md:text-4xl font-black text-[#a87dcc] uppercase font-orbitron tracking-wider text-center">
+          Sobre mí
+        </h1>
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#a87dcc]/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div
